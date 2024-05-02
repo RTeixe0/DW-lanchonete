@@ -1,0 +1,102 @@
+id_cliente;nome_cliente;sexo_cliente;frequencia_visitas;endereco_rua;endereco_numero;endereco_complemento;endereco_bairro;endereco_cidade;endereco_estado;endereco_cep;data_nascimento
+1;Ana Beatriz de Oliveira;Feminino;10;Rua Berlim;711;Bloco B;Jardim Europa;Itapira;São Paulo;13970-672;13/05/1989
+2;Felipe Martins Carvalho;Masculino;14;Rua Roma;558;Bloco B;Jardim Europa;Itapira;São Paulo;13970-691;14/08/1996
+3;Ricardo Neves;Masculino;11;Praça Central;63;;Centro;Itapira;São Paulo;13970-057;18/05/1974
+4;Lucas Ferreira Lima;Masculino;9;Rua Berlim;188;Bloco A;Jardim Europa;Itapira;São Paulo;13970-380;24/10/1995
+5;Matheus Henrique de Souza;Masculino;7;Praça Central;869;Apto;Centro;Itapira;São Paulo;13970-998;07/07/1978
+6;André Luiz Santos;Masculino;13;Rua dos Jacarandás;880;Bloco B;Vila Rezende;Itapira;São Paulo;13970-538;08/08/1987
+7;Jorge Fernandes;Masculino;12;Av. Marginal;843;Bloco A;Parque das Indústrias;Itapira;São Paulo;13970-920;12/02/2003
+8;Sérgio Rocha;Masculino;16;Av. Marginal;393;;Parque das Indústrias;Itapira;São Paulo;13970-617;02/08/1965
+9;Isabela Ferreira;Feminino;12;Rua das Fábricas;722;;Parque das Indústrias;Itapira;São Paulo;13970-586;18/02/1983
+10;Camila Rocha;Feminino;19;Rua Roma;300;;Jardim Europa;Itapira;São Paulo;13970-663;19/04/1998
+11;Maria Clara dos Santos;Feminino;17;Rua dos Jacarandás;61;;Vila Rezende;Itapira;São Paulo;13970-336;14/04/1991
+12;Leonardo Martins;Masculino;8;Rua Berlim;155;Bloco B;Jardim Europa;Itapira;São Paulo;13970-756;09/01/1976
+13;Márcio Silva;Masculino;20;Rua Roma;796;Bloco B;Jardim Europa;Itapira;São Paulo;13970-643;04/10/1997
+14;Gustavo Henrique;Masculino;11;Rua das Camélias;229;;Vila Rezende;Itapira;São Paulo;13970-287;08/12/1975
+15;Vinícius Costa;Masculino;5;Rua dos Jacarandás;456;Apto;Vila Rezende;Itapira;São Paulo;13970-595;01/10/1972
+16;Heitor Vilela;Masculino;14;Rua dos Jacarandás;917;;Vila Rezende;Itapira;São Paulo;13970-775;03/03/2004
+17;Oscar Neto;Masculino;7;Rua dos Jacarandás;984;;Vila Rezende;Itapira;São Paulo;13970-193;16/09/1966
+18;Ricardo Neves;Masculino;11;Rua das Fábricas;116;;Parque das Indústrias;Itapira;São Paulo;13970-238;03/06/1974
+19;Eduardo Pereira Gomes;Masculino;8;Rua São Lucas;37;;Vila Nova;Itapira;São Paulo;13970-735;02/10/1966
+20;Roberto Souza;Masculino;18;Rua São Paulo;416;Bloco A;Vila Nova;Itapira;São Paulo;13970-678;19/11/2000
+21;Lucas Ferreira Lima;Masculino;9;Rua das Camélias;183;;Vila Rezende;Itapira;São Paulo;13970-546;03/05/1995
+22;Matheus Henrique de Souza;Masculino;7;Rua São Paulo;408;Apto;Vila Nova;Itapira;São Paulo;13970-310;18/04/1978
+23;André Luiz Santos;Masculino;13;Rua São Paulo;473;Casa;Vila Nova;Itapira;São Paulo;13970-646;25/11/1987
+24;Carla Dias;Feminino;6;Rua das Azaléias;619;;Vila Rezende;Itapira;São Paulo;13970-186;21/11/1995
+25;Jorge Fernandes;Masculino;12;Rua São Lucas;389;Bloco A;Vila Nova;Itapira;São Paulo;13970-657;05/06/2003
+26;Sérgio Rocha;Masculino;16;Rua Paris;812;Bloco A;Jardim Europa;Itapira;São Paulo;13970-612;20/03/1965
+27;Maria Clara dos Santos;Feminino;17;Rua das Flores;199;;Centro;Itapira;São Paulo;13970-080;17/03/1991
+28;Leonardo Martins;Masculino;8;Av. dos Comerciantes;914;;Centro;Itapira;São Paulo;13970-610;06/01/1976
+29;Márcio Silva;Masculino;20;Rua das Azaléias;951;;Vila Rezende;Itapira;São Paulo;13970-311;12/02/1997
+30;Vinícius Costa;Masculino;5;Av. Industrial;363;;Parque das Indústrias;Itapira;São Paulo;13970-848;21/05/1972
+31;Heitor Vilela;Masculino;14;Rua dos Jacarandás;152;;Vila Rezende;Itapira;São Paulo;13970-468;26/04/2004
+32;Ricardo Neves;Masculino;11;Rua das Fábricas;913;Apto;Parque das Indústrias;Itapira;São Paulo;13970-137;07/03/1974
+33;Lucas Ferreira Lima;Masculino;9;Praça Central;615;Apto;Centro;Itapira;São Paulo;13970-559;12/05/1995
+34;Matheus Henrique de Souza;Masculino;7;Rua das Camélias;724;;Vila Rezende;Itapira;São Paulo;13970-126;04/05/1978
+35;André Luiz Santos;Masculino;13;Rua Berlim;749;;Jardim Europa;Itapira;São Paulo;13970-664;06/06/1987
+36;Jorge Fernandes;Masculino;12;Rua São Paulo;134;Bloco A;Vila Nova;Itapira;São Paulo;13970-435;09/01/2003
+37;Sérgio Rocha;Masculino;16;Av. Industrial;340;;Parque das Indústrias;Itapira;São Paulo;13970-264;13/05/1965
+38;Maria Clara dos Santos;Feminino;17;Rua São Paulo;567;;Vila Nova;Itapira;São Paulo;13970-333;15/10/1991
+39;Leonardo Martins;Masculino;8;Rua São José;532;;Vila Nova;Itapira;São Paulo;13970-718;19/03/1976
+40;Márcio Silva;Masculino;20;Rua das Azaléias;686;Bloco A;Vila Rezende;Itapira;São Paulo;13970-393;13/06/1997
+41;Vinícius Costa;Masculino;5;Rua São José;363;;Vila Nova;Itapira;São Paulo;13970-622;27/09/1972
+42;Heitor Vilela;Masculino;14;Rua Roma;566;Casa;Jardim Europa;Itapira;São Paulo;13970-023;21/10/2004
+43;Ricardo Neves;Masculino;11;Rua São José;50;Bloco B;Vila Nova;Itapira;São Paulo;13970-237;27/07/1974
+44;Lucas Ferreira Lima;Masculino;9;Rua das Camélias;216;;Vila Rezende;Itapira;São Paulo;13970-302;26/07/1995
+45;Matheus Henrique de Souza;Masculino;7;Rua Paris;627;Casa;Jardim Europa;Itapira;São Paulo;13970-366;20/03/1978
+46;André Luiz Santos;Masculino;13;Av. dos Comerciantes;667;;Centro;Itapira;São Paulo;13970-494;14/08/1987
+47;Jorge Fernandes;Masculino;12;Rua São José;693;Casa;Vila Nova;Itapira;São Paulo;13970-126;26/07/2003
+48;Sérgio Rocha;Masculino;16;Rua dos Jacarandás;127;Casa;Vila Rezende;Itapira;São Paulo;13970-980;22/05/1965
+49;Maria Clara dos Santos;Feminino;17;Praça Central;32;Apto;Centro;Itapira;São Paulo;13970-301;14/08/1991
+50;Leonardo Martins;Masculino;8;Rua das Flores;320;;Centro;Itapira;São Paulo;13970-726;13/06/1976
+51;Márcio Silva;Masculino;20;Rua das Fábricas;267;Bloco B;Parque das Indústrias;Itapira;São Paulo;13970-373;13/09/1997
+52;Vinícius Costa;Masculino;5;Rua Paris;355;;Jardim Europa;Itapira;São Paulo;13970-120;28/06/1972
+53;Heitor Vilela;Masculino;14;Rua São Paulo;916;;Vila Nova;Itapira;São Paulo;13970-300;06/08/2004
+54;Ricardo Neves;Masculino;11;Rua dos Jacarandás;813;;Vila Rezende;Itapira;São Paulo;13970-880;27/04/1974
+55;Lucas Ferreira Lima;Masculino;9;Av. Marginal;760;Apto;Parque das Indústrias;Itapira;São Paulo;13970-793;02/08/1995
+56;Matheus Henrique de Souza;Masculino;7;Rua Paris;900;Casa;Jardim Europa;Itapira;São Paulo;13970-818;28/11/1978
+57;André Luiz Santos;Masculino;13;Av. Industrial;695;;Parque das Indústrias;Itapira;São Paulo;13970-430;07/04/1987
+58;Jorge Fernandes;Masculino;12;Rua Paris;322;Apto;Jardim Europa;Itapira;São Paulo;13970-650;19/10/2003
+59;Sérgio Rocha;Masculino;16;Rua Paris;718;;Jardim Europa;Itapira;São Paulo;13970-314;26/05/1965
+60;Maria Clara dos Santos;Feminino;17;Rua São Lucas;296;Casa;Vila Nova;Itapira;São Paulo;13970-486;25/02/1991
+61;Leonardo Martins;Masculino;8;Rua Paris;614;;Jardim Europa;Itapira;São Paulo;13970-176;02/06/1976
+62;Márcio Silva;Masculino;20;Rua das Fábricas;503;Casa;Parque das Indústrias;Itapira;São Paulo;13970-945;20/05/1997
+63;Vinícius Costa;Masculino;5;Rua Roma;343;;Jardim Europa;Itapira;São Paulo;13970-174;16/07/1972
+64;Heitor Vilela;Masculino;14;Rua São Paulo;614;Bloco A;Vila Nova;Itapira;São Paulo;13970-897;15/05/2004
+65;Ricardo Neves;Masculino;11;Rua São Lucas;320;;Vila Nova;Itapira;São Paulo;13970-190;17/08/1974
+66;Carla Dias;Feminino;6;Rua das Fábricas;814;;Parque das Indústrias;Itapira;São Paulo;13970-051;10/08/1995
+67;Patricia Moraes;Feminino;7;Praça Central;41;;Centro;Itapira;São Paulo;13970-782;16/06/1978
+68;Elisa Campos;Feminino;13;Rua das Flores;452;Bloco A;Centro;Itapira;São Paulo;13970-525;02/04/1988
+69;Luiz Otávio Pereira;Masculino;9;Rua Paris;804;Bloco A;Jardim Europa;Itapira;São Paulo;13970-404;11/06/1993
+70;Antônio Carlos Jobim;Masculino;5;Rua das Camélias;686;;Vila Rezende;Itapira;São Paulo;13970-070;21/10/1987
+71;Fernando Pessoa;Masculino;4;Rua Paris;162;Casa;Jardim Europa;Itapira;São Paulo;13970-391;05/07/1969
+72;Vicente Ferreira;Feminino;3;Rua Santa Rita;490;;Santa Marta;Itapira;São Paulo;13970-696;06/05/1981
+73;Lucas Gabriel das Neves;Masculino;1;Rua São Paulo;386;;Vila Nova;Itapira;São Paulo;13970-284;07/02/1959
+74;Fernando Peixoto;Feminino;1;Rua dos Lírios;986;Bloco A;Vila Iveta;Itapira;São Paulo;13970-973;12/07/1955
+75;Marina Lopes;Feminino;12;Rua Vista Alegre;785;;Boa Vista;Itapira;São Paulo;13970-219;24/09/1958
+76;Henrique Azevedo;Masculino;11;Rua das Violetas;104;Apto;Vila Iveta;Itapira;São Paulo;13970-068;24/10/2005
+77;Lara Almeida;Masculino;3;Rua Paris;929;;Jardim Europa;Itapira;São Paulo;13970-046;27/02/2006
+78;Lucas Gabriel Duarte;Masculino;6;Rua das Orquídeas;393;Casa;Vila Iveta;Itapira;São Paulo;13970-093;10/09/1959
+79;Augusto Ferreira;Masculino;7;Rua Roma;811;;Jardim Europa;Itapira;São Paulo;13970-749;24/05/1995
+80;Dra. Alexia Pires;Feminino;6;Rua Vista Alegre;246;;Boa Vista;Itapira;São Paulo;13970-957;07/03/2002
+81;Rebeca Dias;Feminino;14;Rua São Benedito;176;Bloco A;São Benedito;Itapira;São Paulo;13970-452;20/05/1970
+82;Luigi Souza;Feminino;14;Rua Paris;39;Bloco B;Jardim Europa;Itapira;São Paulo;13970-919;24/09/1975
+83;Ana Sophia Porto;Feminino;6;Rua das Camélias;477;Bloco B;Vila Rezende;Itapira;São Paulo;13970-911;25/11/1998
+84;Davi Luiz Lima;Feminino;6;Rua dos Lírios;682;;Vila Iveta;Itapira;São Paulo;13970-217;22/01/1966
+85;Lívia Moura;Feminino;13;Rua das Orquídeas;759;;Vila Iveta;Itapira;São Paulo;13970-473;10/08/1972
+86;Ana Sophia Nunes;Masculino;3;Rua dos Jacarandás;538;;Vila Rezende;Itapira;São Paulo;13970-216;01/11/1988
+87;Benjamin Barros;Feminino;6;Rua das Flores;867;Apto;Centro;Itapira;São Paulo;13970-340;21/11/1959
+88;Srta. Pietra Cardoso;Masculino;8;Rua da Fé;818;;Jardim São Pedro;Itapira;São Paulo;13970-550;01/03/1991
+89;Dr. João Vitor Rodrigues;Masculino;11;Rua do Rosário;921;Bloco B;São Benedito;Itapira;São Paulo;13970-611;02/08/2004
+90;Elisa Caldeira;Feminino;11;Rua Santa Rita;408;;Santa Marta;Itapira;São Paulo;13970-288;23/08/1987
+91;Pedro Miguel Nogueira;Masculino;2;Rua Roma;525;Bloco A;Jardim Europa;Itapira;São Paulo;13970-253;25/09/1983
+92;Clarice da Mota;Feminino;5;Rua das Camélias;828;;Vila Rezende;Itapira;São Paulo;13970-733;21/12/1974
+93;Thomas Costela;Masculino;14;Rua Panorâmica;506;Bloco B;Boa Vista;Itapira;São Paulo;13970-356;06/01/1983
+94;Carolina Aragão;Feminino;1;Rua Roma;903;;Jardim Europa;Itapira;São Paulo;13970-022;27/01/1955
+95;Dr. Lorenzo Oliveira;Masculino;12;Rua da Fé;825;;Jardim São Pedro;Itapira;São Paulo;13970-992;18/03/1996
+96;Ian Santos;Feminino;1;Rua Vista Alegre;36;Casa;Boa Vista;Itapira;São Paulo;13970-521;28/11/1958
+97;Sra. Gabrielly Barros;Feminino;5;Rua São Paulo;685;;Vila Nova;Itapira;São Paulo;13970-757;02/01/1999
+98;Dr. Levi Rodrigues;Feminino;12;Rua dos Lírios;20;;Vila Iveta;Itapira;São Paulo;13970-836;22/10/1971
+99;Antônio Fogaça;Feminino;13;Rua São Paulo;321;Bloco A;Vila Nova;Itapira;São Paulo;13970-099;28/06/1969
+100;Erick Caldeira;Feminino;3;Rua Berlim;776;Casa;Jardim Europa;Itapira;São Paulo;13970-801;15/06/1967
+101;Vitor Moreira;Masculino;4;Rua dos Pioneiros;512;;Jardim São Pedro;Itapira;São Paulo;13970-179;18/10/1987
