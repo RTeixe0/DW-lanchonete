@@ -1,14 +1,14 @@
-id_produto,nome_produto,categoria_produto,preco_produto
-1,Hambúrguer Simples,Lanches,15.00
-2,Hambúrguer com Queijo,Lanches,18.00
-3,Hambúrguer com Bacon,Lanches,20.00
-4,Hambúrguer Vegano,Lanches,22.00
-5,Hambúrguer Especial da Casa,Lanches,25.00
-6,Coca-Cola 350ml,Bebidas,5.00
-7,Suco de Laranja Natural 300ml,Bebidas,7.00
-8,Água Mineral 500ml,Bebidas,3.50
-9,Milkshake de Chocolate 250ml,Bebidas,12.00
-10,Brownie de Chocolate,Sobremesas,8.00
-11,Torta de Limão,Sobremesas,10.00
-12,Sundae de Baunilha,Sobremesas,9.00
-13,Mousse de Maracujá,Sobremesas,7.50
+produto_id;nome;categoria;preco
+1;Hambúrguer Simples;Lanches;15.0
+2;Hambúrguer com Queijo;Lanches;18.0
+3;Hambúrguer com Bacon;Lanches;20.0
+4;Hambúrguer Vegano;Lanches;22.0
+5;Hambúrguer Especial da Casa;Lanches;25.0
+6;Coca-Cola 350ml;Bebidas;5.0
+7;Suco de Laranja Natural 300ml;Bebidas;7.0
+8;Água Mineral 500ml;Bebidas;3.5
+9;Milkshake de Chocolate 250ml;Bebidas;12.0
+10;Brownie de Chocolate;Sobremesas;8.0
+11;Torta de Limão;Sobremesas;10.0
+12;Sundae de Baunilha;Sobremesas;9.0
+13;Mousse de Maracujá;Sobremesas;7.5
