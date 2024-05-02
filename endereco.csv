@@ -1,0 +1,102 @@
+endereco_id;rua;numero;complemento;bairro;cidade;estado;cep
+1;Rua Berlim;711;Bloco B;Jardim Europa;Itapira;São Paulo;13970-672
+2;Rua Roma;558;Bloco B;Jardim Europa;Itapira;São Paulo;13970-691
+3;Praça Central;63;;Centro;Itapira;São Paulo;13970-057
+4;Rua Berlim;188;Bloco A;Jardim Europa;Itapira;São Paulo;13970-380
+5;Praça Central;869;Apto;Centro;Itapira;São Paulo;13970-998
+6;Rua dos Jacarandás;880;Bloco B;Vila Rezende;Itapira;São Paulo;13970-538
+7;Av. Marginal;843;Bloco A;Parque das Indústrias;Itapira;São Paulo;13970-920
+8;Av. Marginal;393;;Parque das Indústrias;Itapira;São Paulo;13970-617
+9;Rua das Fábricas;722;;Parque das Indústrias;Itapira;São Paulo;13970-586
+10;Rua Roma;300;;Jardim Europa;Itapira;São Paulo;13970-663
+11;Rua dos Jacarandás;61;;Vila Rezende;Itapira;São Paulo;13970-336
+12;Rua Berlim;155;Bloco B;Jardim Europa;Itapira;São Paulo;13970-756
+13;Rua Roma;796;Bloco B;Jardim Europa;Itapira;São Paulo;13970-643
+14;Rua das Camélias;229;;Vila Rezende;Itapira;São Paulo;13970-287
+15;Rua dos Jacarandás;456;Apto;Vila Rezende;Itapira;São Paulo;13970-595
+16;Rua dos Jacarandás;917;;Vila Rezende;Itapira;São Paulo;13970-775
+17;Rua dos Jacarandás;984;;Vila Rezende;Itapira;São Paulo;13970-193
+18;Rua das Fábricas;116;;Parque das Indústrias;Itapira;São Paulo;13970-238
+19;Rua São Lucas;37;;Vila Nova;Itapira;São Paulo;13970-735
+20;Rua São Paulo;416;Bloco A;Vila Nova;Itapira;São Paulo;13970-678
+21;Rua das Camélias;183;;Vila Rezende;Itapira;São Paulo;13970-546
+22;Rua São Paulo;408;Apto;Vila Nova;Itapira;São Paulo;13970-310
+23;Rua São Paulo;473;Casa;Vila Nova;Itapira;São Paulo;13970-646
+24;Rua das Azaléias;619;;Vila Rezende;Itapira;São Paulo;13970-186
+25;Rua São Lucas;389;Bloco A;Vila Nova;Itapira;São Paulo;13970-657
+26;Rua Paris;812;Bloco A;Jardim Europa;Itapira;São Paulo;13970-612
+27;Rua das Flores;199;;Centro;Itapira;São Paulo;13970-080
+28;Av. dos Comerciantes;914;;Centro;Itapira;São Paulo;13970-610
+29;Rua das Azaléias;951;;Vila Rezende;Itapira;São Paulo;13970-311
+30;Av. Industrial;363;;Parque das Indústrias;Itapira;São Paulo;13970-848
+31;Rua dos Jacarandás;152;;Vila Rezende;Itapira;São Paulo;13970-468
+32;Rua das Fábricas;913;Apto;Parque das Indústrias;Itapira;São Paulo;13970-137
+33;Praça Central;615;Apto;Centro;Itapira;São Paulo;13970-559
+34;Rua das Camélias;724;;Vila Rezende;Itapira;São Paulo;13970-126
+35;Rua Berlim;749;;Jardim Europa;Itapira;São Paulo;13970-664
+36;Rua São Paulo;134;Bloco A;Vila Nova;Itapira;São Paulo;13970-435
+37;Av. Industrial;340;;Parque das Indústrias;Itapira;São Paulo;13970-264
+38;Rua São Paulo;567;;Vila Nova;Itapira;São Paulo;13970-333
+39;Rua São José;532;;Vila Nova;Itapira;São Paulo;13970-718
+40;Rua das Azaléias;686;Bloco A;Vila Rezende;Itapira;São Paulo;13970-393
+41;Rua São José;363;;Vila Nova;Itapira;São Paulo;13970-622
+42;Rua Roma;566;Casa;Jardim Europa;Itapira;São Paulo;13970-023
+43;Rua São José;50;Bloco B;Vila Nova;Itapira;São Paulo;13970-237
+44;Rua das Camélias;216;;Vila Rezende;Itapira;São Paulo;13970-302
+45;Rua Paris;627;Casa;Jardim Europa;Itapira;São Paulo;13970-366
+46;Av. dos Comerciantes;667;;Centro;Itapira;São Paulo;13970-494
+47;Rua São José;693;Casa;Vila Nova;Itapira;São Paulo;13970-126
+48;Rua dos Jacarandás;127;Casa;Vila Rezende;Itapira;São Paulo;13970-980
+49;Praça Central;32;Apto;Centro;Itapira;São Paulo;13970-301
+50;Rua das Flores;320;;Centro;Itapira;São Paulo;13970-726
+51;Rua das Fábricas;267;Bloco B;Parque das Indústrias;Itapira;São Paulo;13970-373
+52;Rua Paris;355;;Jardim Europa;Itapira;São Paulo;13970-120
+53;Rua São Paulo;916;;Vila Nova;Itapira;São Paulo;13970-300
+54;Rua dos Jacarandás;813;;Vila Rezende;Itapira;São Paulo;13970-880
+55;Av. Marginal;760;Apto;Parque das Indústrias;Itapira;São Paulo;13970-793
+56;Rua Paris;900;Casa;Jardim Europa;Itapira;São Paulo;13970-818
+57;Av. Industrial;695;;Parque das Indústrias;Itapira;São Paulo;13970-430
+58;Rua Paris;322;Apto;Jardim Europa;Itapira;São Paulo;13970-650
+59;Rua Paris;718;;Jardim Europa;Itapira;São Paulo;13970-314
+60;Rua São Lucas;296;Casa;Vila Nova;Itapira;São Paulo;13970-486
+61;Rua Paris;614;;Jardim Europa;Itapira;São Paulo;13970-176
+62;Rua das Fábricas;503;Casa;Parque das Indústrias;Itapira;São Paulo;13970-945
+63;Rua Roma;343;;Jardim Europa;Itapira;São Paulo;13970-174
+64;Rua São Paulo;614;Bloco A;Vila Nova;Itapira;São Paulo;13970-897
+65;Rua São Lucas;320;;Vila Nova;Itapira;São Paulo;13970-190
+66;Rua das Fábricas;814;;Parque das Indústrias;Itapira;São Paulo;13970-051
+67;Praça Central;41;;Centro;Itapira;São Paulo;13970-782
+68;Rua das Flores;452;Bloco A;Centro;Itapira;São Paulo;13970-525
+69;Rua Paris;804;Bloco A;Jardim Europa;Itapira;São Paulo;13970-404
+70;Rua das Camélias;686;;Vila Rezende;Itapira;São Paulo;13970-070
+71;Rua Paris;162;Casa;Jardim Europa;Itapira;São Paulo;13970-391
+72;Rua Santa Rita;490;;Santa Marta;Itapira;São Paulo;13970-696
+73;Rua São Paulo;386;;Vila Nova;Itapira;São Paulo;13970-284
+74;Rua dos Lírios;986;Bloco A;Vila Iveta;Itapira;São Paulo;13970-973
+75;Rua Vista Alegre;785;;Boa Vista;Itapira;São Paulo;13970-219
+76;Rua das Violetas;104;Apto;Vila Iveta;Itapira;São Paulo;13970-068
+77;Rua Paris;929;;Jardim Europa;Itapira;São Paulo;13970-046
+78;Rua das Orquídeas;393;Casa;Vila Iveta;Itapira;São Paulo;13970-093
+79;Rua Roma;811;;Jardim Europa;Itapira;São Paulo;13970-749
+80;Rua Vista Alegre;246;;Boa Vista;Itapira;São Paulo;13970-957
+81;Rua São Benedito;176;Bloco A;São Benedito;Itapira;São Paulo;13970-452
+82;Rua Paris;39;Bloco B;Jardim Europa;Itapira;São Paulo;13970-919
+83;Rua das Camélias;477;Bloco B;Vila Rezende;Itapira;São Paulo;13970-911
+84;Rua dos Lírios;682;;Vila Iveta;Itapira;São Paulo;13970-217
+85;Rua das Orquídeas;759;;Vila Iveta;Itapira;São Paulo;13970-473
+86;Rua dos Jacarandás;538;;Vila Rezende;Itapira;São Paulo;13970-216
+87;Rua das Flores;867;Apto;Centro;Itapira;São Paulo;13970-340
+88;Rua da Fé;818;;Jardim São Pedro;Itapira;São Paulo;13970-550
+89;Rua do Rosário;921;Bloco B;São Benedito;Itapira;São Paulo;13970-611
+90;Rua Santa Rita;408;;Santa Marta;Itapira;São Paulo;13970-288
+91;Rua Roma;525;Bloco A;Jardim Europa;Itapira;São Paulo;13970-253
+92;Rua das Camélias;828;;Vila Rezende;Itapira;São Paulo;13970-733
+93;Rua Panorâmica;506;Bloco B;Boa Vista;Itapira;São Paulo;13970-356
+94;Rua Roma;903;;Jardim Europa;Itapira;São Paulo;13970-022
+95;Rua da Fé;825;;Jardim São Pedro;Itapira;São Paulo;13970-992
+96;Rua Vista Alegre;36;Casa;Boa Vista;Itapira;São Paulo;13970-521
+97;Rua São Paulo;685;;Vila Nova;Itapira;São Paulo;13970-757
+98;Rua dos Lírios;20;;Vila Iveta;Itapira;São Paulo;13970-836
+99;Rua São Paulo;321;Bloco A;Vila Nova;Itapira;São Paulo;13970-099
+100;Rua Berlim;776;Casa;Jardim Europa;Itapira;São Paulo;13970-801
+101;Rua dos Pioneiros;512;;Jardim São Pedro;Itapira;São Paulo;13970-179

@@ -1,102 +1,102 @@
-id_cliente;nome_cliente;endereco_rua;endereco_numero;endereco_complemento;endereco_bairro;endereco_cidade;endereco_estado;endereco_cep;data_nascimento;email;telefone
-1;Ana Beatriz de Oliveira;Rua Berlim;711;Bloco B;Jardim Europa;Itapira;São Paulo;13970-672;13/05/1989;ana.oliveira@exemplo.com;(19) 8061-4084
-2;Felipe Martins Carvalho;Rua Roma;558;Bloco B;Jardim Europa;Itapira;São Paulo;13970-691;14/08/1996;felipe.carvalho@exemplo.com;(19) 4108-8056
-3;Ricardo Neves;Praça Central;63;;Centro;Itapira;São Paulo;13970-057;18/05/1974;ricardo.neves@exemplo.com;(19) 9455-4901
-4;Lucas Ferreira Lima;Rua Berlim;188;Bloco A;Jardim Europa;Itapira;São Paulo;13970-380;24/10/1995;lucas.lima@exemplo.com;(19) 9449-9447
-5;Matheus Henrique de Souza;Praça Central;869;Apto;Centro;Itapira;São Paulo;13970-998;07/07/1978;matheus.souza@exemplo.com;(19) 9831-5430
-6;André Luiz Santos;Rua dos Jacarandás;880;Bloco B;Vila Rezende;Itapira;São Paulo;13970-538;08/08/1987;andré.santos@exemplo.com;(19) 7198-5372
-7;Jorge Fernandes;Av. Marginal;843;Bloco A;Parque das Indústrias;Itapira;São Paulo;13970-920;12/02/2003;jorge.fernandes@exemplo.com;(19) 5221-5481
-8;Sérgio Rocha;Av. Marginal;393;;Parque das Indústrias;Itapira;São Paulo;13970-617;02/08/1965;sérgio.rocha@exemplo.com;(19) 2445-9595
-9;Isabela Ferreira;Rua das Fábricas;722;;Parque das Indústrias;Itapira;São Paulo;13970-586;18/02/1983;isabela.ferreira@exemplo.com;(19) 2040-5828
-10;Camila Rocha;Rua Roma;300;;Jardim Europa;Itapira;São Paulo;13970-663;19/04/1998;camila.rocha@exemplo.com;(19) 2202-3806
-11;Maria Clara dos Santos;Rua dos Jacarandás;61;;Vila Rezende;Itapira;São Paulo;13970-336;14/04/1991;maria.santos@exemplo.com;(19) 9286-4965
-12;Leonardo Martins;Rua Berlim;155;Bloco B;Jardim Europa;Itapira;São Paulo;13970-756;09/01/1976;leonardo.martins@exemplo.com;(19) 6397-4307
-13;Márcio Silva;Rua Roma;796;Bloco B;Jardim Europa;Itapira;São Paulo;13970-643;04/10/1997;márcio.silva@exemplo.com;(19) 9362-6482
-14;Gustavo Henrique;Rua das Camélias;229;;Vila Rezende;Itapira;São Paulo;13970-287;08/12/1975;gustavo.henrique@exemplo.com;(19) 3139-2629
-15;Vinícius Costa;Rua dos Jacarandás;456;Apto;Vila Rezende;Itapira;São Paulo;13970-595;01/10/1972;vinícius.costa@exemplo.com;(19) 6281-6545
-16;Heitor Vilela;Rua dos Jacarandás;917;;Vila Rezende;Itapira;São Paulo;13970-775;03/03/2004;heitor.vilela@exemplo.com;(19) 8675-4934
-17;Oscar Neto;Rua dos Jacarandás;984;;Vila Rezende;Itapira;São Paulo;13970-193;16/09/1966;oscar.neto@exemplo.com;(19) 4008-6016
-18;Ricardo Neves;Rua das Fábricas;116;;Parque das Indústrias;Itapira;São Paulo;13970-238;03/06/1974;ricardo.neves@exemplo.com;(19) 8486-2659
-19;Eduardo Pereira Gomes;Rua São Lucas;37;;Vila Nova;Itapira;São Paulo;13970-735;02/10/1966;eduardo.gomes@exemplo.com;(19) 5070-3711
-20;Roberto Souza;Rua São Paulo;416;Bloco A;Vila Nova;Itapira;São Paulo;13970-678;19/11/2000;roberto.souza@exemplo.com;(19) 5680-8011
-21;Lucas Ferreira Lima;Rua das Camélias;183;;Vila Rezende;Itapira;São Paulo;13970-546;03/05/1995;lucas.lima@exemplo.com;(19) 7797-3541
-22;Matheus Henrique de Souza;Rua São Paulo;408;Apto;Vila Nova;Itapira;São Paulo;13970-310;18/04/1978;matheus.souza@exemplo.com;(19) 8039-7403
-23;André Luiz Santos;Rua São Paulo;473;Casa;Vila Nova;Itapira;São Paulo;13970-646;25/11/1987;andré.santos@exemplo.com;(19) 4837-2466
-24;Carla Dias;Rua das Azaléias;619;;Vila Rezende;Itapira;São Paulo;13970-186;21/11/1995;carla.dias@exemplo.com;(19) 9513-5544
-25;Jorge Fernandes;Rua São Lucas;389;Bloco A;Vila Nova;Itapira;São Paulo;13970-657;05/06/2003;jorge.fernandes@exemplo.com;(19) 6387-3996
-26;Sérgio Rocha;Rua Paris;812;Bloco A;Jardim Europa;Itapira;São Paulo;13970-612;20/03/1965;sérgio.rocha@exemplo.com;(19) 3703-8807
-27;Maria Clara dos Santos;Rua das Flores;199;;Centro;Itapira;São Paulo;13970-080;17/03/1991;maria.santos@exemplo.com;(19) 8959-8304
-28;Leonardo Martins;Av. dos Comerciantes;914;;Centro;Itapira;São Paulo;13970-610;06/01/1976;leonardo.martins@exemplo.com;(19) 4043-3085
-29;Márcio Silva;Rua das Azaléias;951;;Vila Rezende;Itapira;São Paulo;13970-311;12/02/1997;márcio.silva@exemplo.com;(19) 8053-6051
-30;Vinícius Costa;Av. Industrial;363;;Parque das Indústrias;Itapira;São Paulo;13970-848;21/05/1972;vinícius.costa@exemplo.com;(19) 6932-1313
-31;Heitor Vilela;Rua dos Jacarandás;152;;Vila Rezende;Itapira;São Paulo;13970-468;26/04/2004;heitor.vilela@exemplo.com;(19) 6487-6494
-32;Ricardo Neves;Rua das Fábricas;913;Apto;Parque das Indústrias;Itapira;São Paulo;13970-137;07/03/1974;ricardo.neves@exemplo.com;(19) 7268-9205
-33;Lucas Ferreira Lima;Praça Central;615;Apto;Centro;Itapira;São Paulo;13970-559;12/05/1995;lucas.lima@exemplo.com;(19) 6336-1476
-34;Matheus Henrique de Souza;Rua das Camélias;724;;Vila Rezende;Itapira;São Paulo;13970-126;04/05/1978;matheus.souza@exemplo.com;(19) 3877-3169
-35;André Luiz Santos;Rua Berlim;749;;Jardim Europa;Itapira;São Paulo;13970-664;06/06/1987;andré.santos@exemplo.com;(19) 5440-2295
-36;Jorge Fernandes;Rua São Paulo;134;Bloco A;Vila Nova;Itapira;São Paulo;13970-435;09/01/2003;jorge.fernandes@exemplo.com;(19) 6682-7456
-37;Sérgio Rocha;Av. Industrial;340;;Parque das Indústrias;Itapira;São Paulo;13970-264;13/05/1965;sérgio.rocha@exemplo.com;(19) 5532-9546
-38;Maria Clara dos Santos;Rua São Paulo;567;;Vila Nova;Itapira;São Paulo;13970-333;15/10/1991;maria.santos@exemplo.com;(19) 7765-5777
-39;Leonardo Martins;Rua São José;532;;Vila Nova;Itapira;São Paulo;13970-718;19/03/1976;leonardo.martins@exemplo.com;(19) 5350-7031
-40;Márcio Silva;Rua das Azaléias;686;Bloco A;Vila Rezende;Itapira;São Paulo;13970-393;13/06/1997;márcio.silva@exemplo.com;(19) 6086-2068
-41;Vinícius Costa;Rua São José;363;;Vila Nova;Itapira;São Paulo;13970-622;27/09/1972;vinícius.costa@exemplo.com;(19) 7038-8283
-42;Heitor Vilela;Rua Roma;566;Casa;Jardim Europa;Itapira;São Paulo;13970-023;21/10/2004;heitor.vilela@exemplo.com;(19) 4423-1250
-43;Ricardo Neves;Rua São José;50;Bloco B;Vila Nova;Itapira;São Paulo;13970-237;27/07/1974;ricardo.neves@exemplo.com;(19) 1221-8157
-44;Lucas Ferreira Lima;Rua das Camélias;216;;Vila Rezende;Itapira;São Paulo;13970-302;26/07/1995;lucas.lima@exemplo.com;(19) 4360-2526
-45;Matheus Henrique de Souza;Rua Paris;627;Casa;Jardim Europa;Itapira;São Paulo;13970-366;20/03/1978;matheus.souza@exemplo.com;(19) 1081-3726
-46;André Luiz Santos;Av. dos Comerciantes;667;;Centro;Itapira;São Paulo;13970-494;14/08/1987;andré.santos@exemplo.com;(19) 3635-9265
-47;Jorge Fernandes;Rua São José;693;Casa;Vila Nova;Itapira;São Paulo;13970-126;26/07/2003;jorge.fernandes@exemplo.com;(19) 2534-1765
-48;Sérgio Rocha;Rua dos Jacarandás;127;Casa;Vila Rezende;Itapira;São Paulo;13970-980;22/05/1965;sérgio.rocha@exemplo.com;(19) 2232-3499
-49;Maria Clara dos Santos;Praça Central;32;Apto;Centro;Itapira;São Paulo;13970-301;14/08/1991;maria.santos@exemplo.com;(19) 4057-8544
-50;Leonardo Martins;Rua das Flores;320;;Centro;Itapira;São Paulo;13970-726;13/06/1976;leonardo.martins@exemplo.com;(19) 4718-3611
-51;Márcio Silva;Rua das Fábricas;267;Bloco B;Parque das Indústrias;Itapira;São Paulo;13970-373;13/09/1997;márcio.silva@exemplo.com;(19) 2104-7193
-52;Vinícius Costa;Rua Paris;355;;Jardim Europa;Itapira;São Paulo;13970-120;28/06/1972;vinícius.costa@exemplo.com;(19) 4850-9946
-53;Heitor Vilela;Rua São Paulo;916;;Vila Nova;Itapira;São Paulo;13970-300;06/08/2004;heitor.vilela@exemplo.com;(19) 4049-8314
-54;Ricardo Neves;Rua dos Jacarandás;813;;Vila Rezende;Itapira;São Paulo;13970-880;27/04/1974;ricardo.neves@exemplo.com;(19) 9156-2430
-55;Lucas Ferreira Lima;Av. Marginal;760;Apto;Parque das Indústrias;Itapira;São Paulo;13970-793;02/08/1995;lucas.lima@exemplo.com;(19) 2087-3955
-56;Matheus Henrique de Souza;Rua Paris;900;Casa;Jardim Europa;Itapira;São Paulo;13970-818;28/11/1978;matheus.souza@exemplo.com;(19) 1394-3110
-57;André Luiz Santos;Av. Industrial;695;;Parque das Indústrias;Itapira;São Paulo;13970-430;07/04/1987;andré.santos@exemplo.com;(19) 5910-4995
-58;Jorge Fernandes;Rua Paris;322;Apto;Jardim Europa;Itapira;São Paulo;13970-650;19/10/2003;jorge.fernandes@exemplo.com;(19) 3519-6742
-59;Sérgio Rocha;Rua Paris;718;;Jardim Europa;Itapira;São Paulo;13970-314;26/05/1965;sérgio.rocha@exemplo.com;(19) 5622-6033
-60;Maria Clara dos Santos;Rua São Lucas;296;Casa;Vila Nova;Itapira;São Paulo;13970-486;25/02/1991;maria.santos@exemplo.com;(19) 4441-8174
-61;Leonardo Martins;Rua Paris;614;;Jardim Europa;Itapira;São Paulo;13970-176;02/06/1976;leonardo.martins@exemplo.com;(19) 2169-1843
-62;Márcio Silva;Rua das Fábricas;503;Casa;Parque das Indústrias;Itapira;São Paulo;13970-945;20/05/1997;márcio.silva@exemplo.com;(19) 5963-7758
-63;Vinícius Costa;Rua Roma;343;;Jardim Europa;Itapira;São Paulo;13970-174;16/07/1972;vinícius.costa@exemplo.com;(19) 3751-5293
-64;Heitor Vilela;Rua São Paulo;614;Bloco A;Vila Nova;Itapira;São Paulo;13970-897;15/05/2004;heitor.vilela@exemplo.com;(19) 1939-4542
-65;Ricardo Neves;Rua São Lucas;320;;Vila Nova;Itapira;São Paulo;13970-190;17/08/1974;ricardo.neves@exemplo.com;(19) 5150-6156
-66;Carla Dias;Rua das Fábricas;814;;Parque das Indústrias;Itapira;São Paulo;13970-051;10/08/1995;carla.dias@exemplo.com;(19) 9979-6224
-67;Patricia Moraes;Praça Central;41;;Centro;Itapira;São Paulo;13970-782;16/06/1978;patricia.moraes@exemplo.com;(19) 8051-5490
-68;Elisa Campos;Rua das Flores;452;Bloco A;Centro;Itapira;São Paulo;13970-525;02/04/1988;elisa.campos@exemplo.com;(19) 5898-5087
-69;Luiz Otávio Pereira;Rua Paris;804;Bloco A;Jardim Europa;Itapira;São Paulo;13970-404;11/06/1993;luiz.pereira@exemplo.com;(19) 1192-3283
-70;Antônio Carlos Jobim;Rua das Camélias;686;;Vila Rezende;Itapira;São Paulo;13970-070;21/10/1987;antônio.jobim@exemplo.com;(19) 8139-9610
-71;Fernando Pessoa;Rua Paris;162;Casa;Jardim Europa;Itapira;São Paulo;13970-391;05/07/1969;fernando.pessoa@exemplo.com;(19) 9203-5642
-72;Vicente Ferreira;Rua Santa Rita;490;;Santa Marta;Itapira;São Paulo;13970-696;06/05/1981;vicente.ferreira@exemplo.com;(19) 2311-1636
-73;Lucas Gabriel das Neves;Rua São Paulo;386;;Vila Nova;Itapira;São Paulo;13970-284;07/02/1959;lucas.neves@exemplo.com;(19) 7114-6296
-74;Fernando Peixoto;Rua dos Lírios;986;Bloco A;Vila Iveta;Itapira;São Paulo;13970-973;12/07/1955;fernando.peixoto@exemplo.com;(19) 7214-7983
-75;Marina Lopes;Rua Vista Alegre;785;;Boa Vista;Itapira;São Paulo;13970-219;24/09/1958;marina.lopes@exemplo.com;(19) 1098-4774
-76;Henrique Azevedo;Rua das Violetas;104;Apto;Vila Iveta;Itapira;São Paulo;13970-068;24/10/2005;henrique.azevedo@exemplo.com;(19) 4117-2805
-77;Lara Almeida;Rua Paris;929;;Jardim Europa;Itapira;São Paulo;13970-046;27/02/2006;lara.almeida@exemplo.com;(19) 7700-5707
-78;Lucas Gabriel Duarte;Rua das Orquídeas;393;Casa;Vila Iveta;Itapira;São Paulo;13970-093;10/09/1959;lucas.duarte@exemplo.com;(19) 6974-5412
-79;Augusto Ferreira;Rua Roma;811;;Jardim Europa;Itapira;São Paulo;13970-749;24/05/1995;augusto.ferreira@exemplo.com;(19) 4794-2747
-80;Dra. Alexia Pires;Rua Vista Alegre;246;;Boa Vista;Itapira;São Paulo;13970-957;07/03/2002;dra..pires@exemplo.com;(19) 6826-2938
-81;Rebeca Dias;Rua São Benedito;176;Bloco A;São Benedito;Itapira;São Paulo;13970-452;20/05/1970;rebeca.dias@exemplo.com;(19) 8295-8703
-82;Luigi Souza;Rua Paris;39;Bloco B;Jardim Europa;Itapira;São Paulo;13970-919;24/09/1975;luigi.souza@exemplo.com;(19) 3197-1232
-83;Ana Sophia Porto;Rua das Camélias;477;Bloco B;Vila Rezende;Itapira;São Paulo;13970-911;25/11/1998;ana.porto@exemplo.com;(19) 1051-9340
-84;Davi Luiz Lima;Rua dos Lírios;682;;Vila Iveta;Itapira;São Paulo;13970-217;22/01/1966;davi.lima@exemplo.com;(19) 9566-7407
-85;Lívia Moura;Rua das Orquídeas;759;;Vila Iveta;Itapira;São Paulo;13970-473;10/08/1972;lívia.moura@exemplo.com;(19) 9419-9696
-86;Ana Sophia Nunes;Rua dos Jacarandás;538;;Vila Rezende;Itapira;São Paulo;13970-216;01/11/1988;ana.nunes@exemplo.com;(19) 8045-1233
-87;Benjamin Barros;Rua das Flores;867;Apto;Centro;Itapira;São Paulo;13970-340;21/11/1959;benjamin.barros@exemplo.com;(19) 5416-5443
-88;Srta. Pietra Cardoso;Rua da Fé;818;;Jardim São Pedro;Itapira;São Paulo;13970-550;01/03/1991;srta..cardoso@exemplo.com;(19) 5373-6346
-89;Dr. João Vitor Rodrigues;Rua do Rosário;921;Bloco B;São Benedito;Itapira;São Paulo;13970-611;02/08/2004;dr..rodrigues@exemplo.com;(19) 8541-3328
-90;Elisa Caldeira;Rua Santa Rita;408;;Santa Marta;Itapira;São Paulo;13970-288;23/08/1987;elisa.caldeira@exemplo.com;(19) 6867-6386
-91;Pedro Miguel Nogueira;Rua Roma;525;Bloco A;Jardim Europa;Itapira;São Paulo;13970-253;25/09/1983;pedro.nogueira@exemplo.com;(19) 3992-5138
-92;Clarice da Mota;Rua das Camélias;828;;Vila Rezende;Itapira;São Paulo;13970-733;21/12/1974;clarice.mota@exemplo.com;(19) 7239-1455
-93;Thomas Costela;Rua Panorâmica;506;Bloco B;Boa Vista;Itapira;São Paulo;13970-356;06/01/1983;thomas.costela@exemplo.com;(19) 5602-9095
-94;Carolina Aragão;Rua Roma;903;;Jardim Europa;Itapira;São Paulo;13970-022;27/01/1955;carolina.aragão@exemplo.com;(19) 2059-9033
-95;Dr. Lorenzo Oliveira;Rua da Fé;825;;Jardim São Pedro;Itapira;São Paulo;13970-992;18/03/1996;dr..oliveira@exemplo.com;(19) 3802-8228
-96;Ian Santos;Rua Vista Alegre;36;Casa;Boa Vista;Itapira;São Paulo;13970-521;28/11/1958;ian.santos@exemplo.com;(19) 8206-7828
-97;Sra. Gabrielly Barros;Rua São Paulo;685;;Vila Nova;Itapira;São Paulo;13970-757;02/01/1999;sra..barros@exemplo.com;(19) 8595-9044
-98;Dr. Levi Rodrigues;Rua dos Lírios;20;;Vila Iveta;Itapira;São Paulo;13970-836;22/10/1971;dr..rodrigues@exemplo.com;(19) 4785-7787
-99;Antônio Fogaça;Rua São Paulo;321;Bloco A;Vila Nova;Itapira;São Paulo;13970-099;28/06/1969;antônio.fogaça@exemplo.com;(19) 7793-7027
-100;Erick Caldeira;Rua Berlim;776;Casa;Jardim Europa;Itapira;São Paulo;13970-801;15/06/1967;erick.caldeira@exemplo.com;(19) 2553-7100
-101;Vitor Moreira;Rua dos Pioneiros;512;;Jardim São Pedro;Itapira;São Paulo;13970-179;18/10/1987;vitor.moreira@exemplo.com;(19) 1655-9761
+cliente_id;nome;email;telefone;data_nascimento
+1;Ana Beatriz de Oliveira;ana.oliveira@exemplo.com;(19) 8061-4084;13/05/1989
+2;Felipe Martins Carvalho;felipe.carvalho@exemplo.com;(19) 4108-8056;14/08/1996
+3;Ricardo Neves;ricardo.neves@exemplo.com;(19) 9455-4901;18/05/1974
+4;Lucas Ferreira Lima;lucas.lima@exemplo.com;(19) 9449-9447;24/10/1995
+5;Matheus Henrique de Souza;matheus.souza@exemplo.com;(19) 9831-5430;07/07/1978
+6;André Luiz Santos;andré.santos@exemplo.com;(19) 7198-5372;08/08/1987
+7;Jorge Fernandes;jorge.fernandes@exemplo.com;(19) 5221-5481;12/02/2003
+8;Sérgio Rocha;sérgio.rocha@exemplo.com;(19) 2445-9595;02/08/1965
+9;Isabela Ferreira;isabela.ferreira@exemplo.com;(19) 2040-5828;18/02/1983
+10;Camila Rocha;camila.rocha@exemplo.com;(19) 2202-3806;19/04/1998
+11;Maria Clara dos Santos;maria.santos@exemplo.com;(19) 9286-4965;14/04/1991
+12;Leonardo Martins;leonardo.martins@exemplo.com;(19) 6397-4307;09/01/1976
+13;Márcio Silva;márcio.silva@exemplo.com;(19) 9362-6482;04/10/1997
+14;Gustavo Henrique;gustavo.henrique@exemplo.com;(19) 3139-2629;08/12/1975
+15;Vinícius Costa;vinícius.costa@exemplo.com;(19) 6281-6545;01/10/1972
+16;Heitor Vilela;heitor.vilela@exemplo.com;(19) 8675-4934;03/03/2004
+17;Oscar Neto;oscar.neto@exemplo.com;(19) 4008-6016;16/09/1966
+18;Ricardo Neves;ricardo.neves@exemplo.com;(19) 8486-2659;03/06/1974
+19;Eduardo Pereira Gomes;eduardo.gomes@exemplo.com;(19) 5070-3711;02/10/1966
+20;Roberto Souza;roberto.souza@exemplo.com;(19) 5680-8011;19/11/2000
+21;Lucas Ferreira Lima;lucas.lima@exemplo.com;(19) 7797-3541;03/05/1995
+22;Matheus Henrique de Souza;matheus.souza@exemplo.com;(19) 8039-7403;18/04/1978
+23;André Luiz Santos;andré.santos@exemplo.com;(19) 4837-2466;25/11/1987
+24;Carla Dias;carla.dias@exemplo.com;(19) 9513-5544;21/11/1995
+25;Jorge Fernandes;jorge.fernandes@exemplo.com;(19) 6387-3996;05/06/2003
+26;Sérgio Rocha;sérgio.rocha@exemplo.com;(19) 3703-8807;20/03/1965
+27;Maria Clara dos Santos;maria.santos@exemplo.com;(19) 8959-8304;17/03/1991
+28;Leonardo Martins;leonardo.martins@exemplo.com;(19) 4043-3085;06/01/1976
+29;Márcio Silva;márcio.silva@exemplo.com;(19) 8053-6051;12/02/1997
+30;Vinícius Costa;vinícius.costa@exemplo.com;(19) 6932-1313;21/05/1972
+31;Heitor Vilela;heitor.vilela@exemplo.com;(19) 6487-6494;26/04/2004
+32;Ricardo Neves;ricardo.neves@exemplo.com;(19) 7268-9205;07/03/1974
+33;Lucas Ferreira Lima;lucas.lima@exemplo.com;(19) 6336-1476;12/05/1995
+34;Matheus Henrique de Souza;matheus.souza@exemplo.com;(19) 3877-3169;04/05/1978
+35;André Luiz Santos;andré.santos@exemplo.com;(19) 5440-2295;06/06/1987
+36;Jorge Fernandes;jorge.fernandes@exemplo.com;(19) 6682-7456;09/01/2003
+37;Sérgio Rocha;sérgio.rocha@exemplo.com;(19) 5532-9546;13/05/1965
+38;Maria Clara dos Santos;maria.santos@exemplo.com;(19) 7765-5777;15/10/1991
+39;Leonardo Martins;leonardo.martins@exemplo.com;(19) 5350-7031;19/03/1976
+40;Márcio Silva;márcio.silva@exemplo.com;(19) 6086-2068;13/06/1997
+41;Vinícius Costa;vinícius.costa@exemplo.com;(19) 7038-8283;27/09/1972
+42;Heitor Vilela;heitor.vilela@exemplo.com;(19) 4423-1250;21/10/2004
+43;Ricardo Neves;ricardo.neves@exemplo.com;(19) 1221-8157;27/07/1974
+44;Lucas Ferreira Lima;lucas.lima@exemplo.com;(19) 4360-2526;26/07/1995
+45;Matheus Henrique de Souza;matheus.souza@exemplo.com;(19) 1081-3726;20/03/1978
+46;André Luiz Santos;andré.santos@exemplo.com;(19) 3635-9265;14/08/1987
+47;Jorge Fernandes;jorge.fernandes@exemplo.com;(19) 2534-1765;26/07/2003
+48;Sérgio Rocha;sérgio.rocha@exemplo.com;(19) 2232-3499;22/05/1965
+49;Maria Clara dos Santos;maria.santos@exemplo.com;(19) 4057-8544;14/08/1991
+50;Leonardo Martins;leonardo.martins@exemplo.com;(19) 4718-3611;13/06/1976
+51;Márcio Silva;márcio.silva@exemplo.com;(19) 2104-7193;13/09/1997
+52;Vinícius Costa;vinícius.costa@exemplo.com;(19) 4850-9946;28/06/1972
+53;Heitor Vilela;heitor.vilela@exemplo.com;(19) 4049-8314;06/08/2004
+54;Ricardo Neves;ricardo.neves@exemplo.com;(19) 9156-2430;27/04/1974
+55;Lucas Ferreira Lima;lucas.lima@exemplo.com;(19) 2087-3955;02/08/1995
+56;Matheus Henrique de Souza;matheus.souza@exemplo.com;(19) 1394-3110;28/11/1978
+57;André Luiz Santos;andré.santos@exemplo.com;(19) 5910-4995;07/04/1987
+58;Jorge Fernandes;jorge.fernandes@exemplo.com;(19) 3519-6742;19/10/2003
+59;Sérgio Rocha;sérgio.rocha@exemplo.com;(19) 5622-6033;26/05/1965
+60;Maria Clara dos Santos;maria.santos@exemplo.com;(19) 4441-8174;25/02/1991
+61;Leonardo Martins;leonardo.martins@exemplo.com;(19) 2169-1843;02/06/1976
+62;Márcio Silva;márcio.silva@exemplo.com;(19) 5963-7758;20/05/1997
+63;Vinícius Costa;vinícius.costa@exemplo.com;(19) 3751-5293;16/07/1972
+64;Heitor Vilela;heitor.vilela@exemplo.com;(19) 1939-4542;15/05/2004
+65;Ricardo Neves;ricardo.neves@exemplo.com;(19) 5150-6156;17/08/1974
+66;Carla Dias;carla.dias@exemplo.com;(19) 9979-6224;10/08/1995
+67;Patricia Moraes;patricia.moraes@exemplo.com;(19) 8051-5490;16/06/1978
+68;Elisa Campos;elisa.campos@exemplo.com;(19) 5898-5087;02/04/1988
+69;Luiz Otávio Pereira;luiz.pereira@exemplo.com;(19) 1192-3283;11/06/1993
+70;Antônio Carlos Jobim;antônio.jobim@exemplo.com;(19) 8139-9610;21/10/1987
+71;Fernando Pessoa;fernando.pessoa@exemplo.com;(19) 9203-5642;05/07/1969
+72;Vicente Ferreira;vicente.ferreira@exemplo.com;(19) 2311-1636;06/05/1981
+73;Lucas Gabriel das Neves;lucas.neves@exemplo.com;(19) 7114-6296;07/02/1959
+74;Fernando Peixoto;fernando.peixoto@exemplo.com;(19) 7214-7983;12/07/1955
+75;Marina Lopes;marina.lopes@exemplo.com;(19) 1098-4774;24/09/1958
+76;Henrique Azevedo;henrique.azevedo@exemplo.com;(19) 4117-2805;24/10/2005
+77;Lara Almeida;lara.almeida@exemplo.com;(19) 7700-5707;27/02/2006
+78;Lucas Gabriel Duarte;lucas.duarte@exemplo.com;(19) 6974-5412;10/09/1959
+79;Augusto Ferreira;augusto.ferreira@exemplo.com;(19) 4794-2747;24/05/1995
+80;Dra. Alexia Pires;dra..pires@exemplo.com;(19) 6826-2938;07/03/2002
+81;Rebeca Dias;rebeca.dias@exemplo.com;(19) 8295-8703;20/05/1970
+82;Luigi Souza;luigi.souza@exemplo.com;(19) 3197-1232;24/09/1975
+83;Ana Sophia Porto;ana.porto@exemplo.com;(19) 1051-9340;25/11/1998
+84;Davi Luiz Lima;davi.lima@exemplo.com;(19) 9566-7407;22/01/1966
+85;Lívia Moura;lívia.moura@exemplo.com;(19) 9419-9696;10/08/1972
+86;Ana Sophia Nunes;ana.nunes@exemplo.com;(19) 8045-1233;01/11/1988
+87;Benjamin Barros;benjamin.barros@exemplo.com;(19) 5416-5443;21/11/1959
+88;Srta. Pietra Cardoso;srta..cardoso@exemplo.com;(19) 5373-6346;01/03/1991
+89;Dr. João Vitor Rodrigues;dr..rodrigues@exemplo.com;(19) 8541-3328;02/08/2004
+90;Elisa Caldeira;elisa.caldeira@exemplo.com;(19) 6867-6386;23/08/1987
+91;Pedro Miguel Nogueira;pedro.nogueira@exemplo.com;(19) 3992-5138;25/09/1983
+92;Clarice da Mota;clarice.mota@exemplo.com;(19) 7239-1455;21/12/1974
+93;Thomas Costela;thomas.costela@exemplo.com;(19) 5602-9095;06/01/1983
+94;Carolina Aragão;carolina.aragão@exemplo.com;(19) 2059-9033;27/01/1955
+95;Dr. Lorenzo Oliveira;dr..oliveira@exemplo.com;(19) 3802-8228;18/03/1996
+96;Ian Santos;ian.santos@exemplo.com;(19) 8206-7828;28/11/1958
+97;Sra. Gabrielly Barros;sra..barros@exemplo.com;(19) 8595-9044;02/01/1999
+98;Dr. Levi Rodrigues;dr..rodrigues@exemplo.com;(19) 4785-7787;22/10/1971
+99;Antônio Fogaça;antônio.fogaça@exemplo.com;(19) 7793-7027;28/06/1969
+100;Erick Caldeira;erick.caldeira@exemplo.com;(19) 2553-7100;15/06/1967
+101;Vitor Moreira;vitor.moreira@exemplo.com;(19) 1655-9761;18/10/1987
