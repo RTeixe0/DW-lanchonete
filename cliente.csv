@@ -1,102 +1,102 @@
-id_cliente;nome_cliente;sexo_cliente;frequencia_visitas;endereco_rua;endereco_numero;endereco_complemento;endereco_bairro;endereco_cidade;endereco_estado;endereco_cep;data_nascimento
-1;Ana Beatriz de Oliveira;Feminino;10;Rua Berlim;711;Bloco B;Jardim Europa;Itapira;S„o Paulo;13970-672;13/05/1989
-2;Felipe Martins Carvalho;Masculino;14;Rua Roma;558;Bloco B;Jardim Europa;Itapira;S„o Paulo;13970-691;14/08/1996
-3;Ricardo Neves;Masculino;11;PraÁa Central;63;;Centro;Itapira;S„o Paulo;13970-057;18/05/1974
-4;Lucas Ferreira Lima;Masculino;9;Rua Berlim;188;Bloco A;Jardim Europa;Itapira;S„o Paulo;13970-380;24/10/1995
-5;Matheus Henrique de Souza;Masculino;7;PraÁa Central;869;Apto;Centro;Itapira;S„o Paulo;13970-998;07/07/1978
-6;AndrÈ Luiz Santos;Masculino;13;Rua dos Jacarand·s;880;Bloco B;Vila Rezende;Itapira;S„o Paulo;13970-538;08/08/1987
-7;Jorge Fernandes;Masculino;12;Av. Marginal;843;Bloco A;Parque das Ind˙strias;Itapira;S„o Paulo;13970-920;12/02/2003
-8;SÈrgio Rocha;Masculino;16;Av. Marginal;393;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-617;02/08/1965
-9;Isabela Ferreira;Feminino;12;Rua das F·bricas;722;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-586;18/02/1983
-10;Camila Rocha;Feminino;19;Rua Roma;300;;Jardim Europa;Itapira;S„o Paulo;13970-663;19/04/1998
-11;Maria Clara dos Santos;Feminino;17;Rua dos Jacarand·s;61;;Vila Rezende;Itapira;S„o Paulo;13970-336;14/04/1991
-12;Leonardo Martins;Masculino;8;Rua Berlim;155;Bloco B;Jardim Europa;Itapira;S„o Paulo;13970-756;09/01/1976
-13;M·rcio Silva;Masculino;20;Rua Roma;796;Bloco B;Jardim Europa;Itapira;S„o Paulo;13970-643;04/10/1997
-14;Gustavo Henrique;Masculino;11;Rua das CamÈlias;229;;Vila Rezende;Itapira;S„o Paulo;13970-287;08/12/1975
-15;VinÌcius Costa;Masculino;5;Rua dos Jacarand·s;456;Apto;Vila Rezende;Itapira;S„o Paulo;13970-595;01/10/1972
-16;Heitor Vilela;Masculino;14;Rua dos Jacarand·s;917;;Vila Rezende;Itapira;S„o Paulo;13970-775;03/03/2004
-17;Oscar Neto;Masculino;7;Rua dos Jacarand·s;984;;Vila Rezende;Itapira;S„o Paulo;13970-193;16/09/1966
-18;Ricardo Neves;Masculino;11;Rua das F·bricas;116;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-238;03/06/1974
-19;Eduardo Pereira Gomes;Masculino;8;Rua S„o Lucas;37;;Vila Nova;Itapira;S„o Paulo;13970-735;02/10/1966
-20;Roberto Souza;Masculino;18;Rua S„o Paulo;416;Bloco A;Vila Nova;Itapira;S„o Paulo;13970-678;19/11/2000
-21;Lucas Ferreira Lima;Masculino;9;Rua das CamÈlias;183;;Vila Rezende;Itapira;S„o Paulo;13970-546;03/05/1995
-22;Matheus Henrique de Souza;Masculino;7;Rua S„o Paulo;408;Apto;Vila Nova;Itapira;S„o Paulo;13970-310;18/04/1978
-23;AndrÈ Luiz Santos;Masculino;13;Rua S„o Paulo;473;Casa;Vila Nova;Itapira;S„o Paulo;13970-646;25/11/1987
-24;Carla Dias;Feminino;6;Rua das AzalÈias;619;;Vila Rezende;Itapira;S„o Paulo;13970-186;21/11/1995
-25;Jorge Fernandes;Masculino;12;Rua S„o Lucas;389;Bloco A;Vila Nova;Itapira;S„o Paulo;13970-657;05/06/2003
-26;SÈrgio Rocha;Masculino;16;Rua Paris;812;Bloco A;Jardim Europa;Itapira;S„o Paulo;13970-612;20/03/1965
-27;Maria Clara dos Santos;Feminino;17;Rua das Flores;199;;Centro;Itapira;S„o Paulo;13970-080;17/03/1991
-28;Leonardo Martins;Masculino;8;Av. dos Comerciantes;914;;Centro;Itapira;S„o Paulo;13970-610;06/01/1976
-29;M·rcio Silva;Masculino;20;Rua das AzalÈias;951;;Vila Rezende;Itapira;S„o Paulo;13970-311;12/02/1997
-30;VinÌcius Costa;Masculino;5;Av. Industrial;363;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-848;21/05/1972
-31;Heitor Vilela;Masculino;14;Rua dos Jacarand·s;152;;Vila Rezende;Itapira;S„o Paulo;13970-468;26/04/2004
-32;Ricardo Neves;Masculino;11;Rua das F·bricas;913;Apto;Parque das Ind˙strias;Itapira;S„o Paulo;13970-137;07/03/1974
-33;Lucas Ferreira Lima;Masculino;9;PraÁa Central;615;Apto;Centro;Itapira;S„o Paulo;13970-559;12/05/1995
-34;Matheus Henrique de Souza;Masculino;7;Rua das CamÈlias;724;;Vila Rezende;Itapira;S„o Paulo;13970-126;04/05/1978
-35;AndrÈ Luiz Santos;Masculino;13;Rua Berlim;749;;Jardim Europa;Itapira;S„o Paulo;13970-664;06/06/1987
-36;Jorge Fernandes;Masculino;12;Rua S„o Paulo;134;Bloco A;Vila Nova;Itapira;S„o Paulo;13970-435;09/01/2003
-37;SÈrgio Rocha;Masculino;16;Av. Industrial;340;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-264;13/05/1965
-38;Maria Clara dos Santos;Feminino;17;Rua S„o Paulo;567;;Vila Nova;Itapira;S„o Paulo;13970-333;15/10/1991
-39;Leonardo Martins;Masculino;8;Rua S„o JosÈ;532;;Vila Nova;Itapira;S„o Paulo;13970-718;19/03/1976
-40;M·rcio Silva;Masculino;20;Rua das AzalÈias;686;Bloco A;Vila Rezende;Itapira;S„o Paulo;13970-393;13/06/1997
-41;VinÌcius Costa;Masculino;5;Rua S„o JosÈ;363;;Vila Nova;Itapira;S„o Paulo;13970-622;27/09/1972
-42;Heitor Vilela;Masculino;14;Rua Roma;566;Casa;Jardim Europa;Itapira;S„o Paulo;13970-023;21/10/2004
-43;Ricardo Neves;Masculino;11;Rua S„o JosÈ;50;Bloco B;Vila Nova;Itapira;S„o Paulo;13970-237;27/07/1974
-44;Lucas Ferreira Lima;Masculino;9;Rua das CamÈlias;216;;Vila Rezende;Itapira;S„o Paulo;13970-302;26/07/1995
-45;Matheus Henrique de Souza;Masculino;7;Rua Paris;627;Casa;Jardim Europa;Itapira;S„o Paulo;13970-366;20/03/1978
-46;AndrÈ Luiz Santos;Masculino;13;Av. dos Comerciantes;667;;Centro;Itapira;S„o Paulo;13970-494;14/08/1987
-47;Jorge Fernandes;Masculino;12;Rua S„o JosÈ;693;Casa;Vila Nova;Itapira;S„o Paulo;13970-126;26/07/2003
-48;SÈrgio Rocha;Masculino;16;Rua dos Jacarand·s;127;Casa;Vila Rezende;Itapira;S„o Paulo;13970-980;22/05/1965
-49;Maria Clara dos Santos;Feminino;17;PraÁa Central;32;Apto;Centro;Itapira;S„o Paulo;13970-301;14/08/1991
-50;Leonardo Martins;Masculino;8;Rua das Flores;320;;Centro;Itapira;S„o Paulo;13970-726;13/06/1976
-51;M·rcio Silva;Masculino;20;Rua das F·bricas;267;Bloco B;Parque das Ind˙strias;Itapira;S„o Paulo;13970-373;13/09/1997
-52;VinÌcius Costa;Masculino;5;Rua Paris;355;;Jardim Europa;Itapira;S„o Paulo;13970-120;28/06/1972
-53;Heitor Vilela;Masculino;14;Rua S„o Paulo;916;;Vila Nova;Itapira;S„o Paulo;13970-300;06/08/2004
-54;Ricardo Neves;Masculino;11;Rua dos Jacarand·s;813;;Vila Rezende;Itapira;S„o Paulo;13970-880;27/04/1974
-55;Lucas Ferreira Lima;Masculino;9;Av. Marginal;760;Apto;Parque das Ind˙strias;Itapira;S„o Paulo;13970-793;02/08/1995
-56;Matheus Henrique de Souza;Masculino;7;Rua Paris;900;Casa;Jardim Europa;Itapira;S„o Paulo;13970-818;28/11/1978
-57;AndrÈ Luiz Santos;Masculino;13;Av. Industrial;695;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-430;07/04/1987
-58;Jorge Fernandes;Masculino;12;Rua Paris;322;Apto;Jardim Europa;Itapira;S„o Paulo;13970-650;19/10/2003
-59;SÈrgio Rocha;Masculino;16;Rua Paris;718;;Jardim Europa;Itapira;S„o Paulo;13970-314;26/05/1965
-60;Maria Clara dos Santos;Feminino;17;Rua S„o Lucas;296;Casa;Vila Nova;Itapira;S„o Paulo;13970-486;25/02/1991
-61;Leonardo Martins;Masculino;8;Rua Paris;614;;Jardim Europa;Itapira;S„o Paulo;13970-176;02/06/1976
-62;M·rcio Silva;Masculino;20;Rua das F·bricas;503;Casa;Parque das Ind˙strias;Itapira;S„o Paulo;13970-945;20/05/1997
-63;VinÌcius Costa;Masculino;5;Rua Roma;343;;Jardim Europa;Itapira;S„o Paulo;13970-174;16/07/1972
-64;Heitor Vilela;Masculino;14;Rua S„o Paulo;614;Bloco A;Vila Nova;Itapira;S„o Paulo;13970-897;15/05/2004
-65;Ricardo Neves;Masculino;11;Rua S„o Lucas;320;;Vila Nova;Itapira;S„o Paulo;13970-190;17/08/1974
-66;Carla Dias;Feminino;6;Rua das F·bricas;814;;Parque das Ind˙strias;Itapira;S„o Paulo;13970-051;10/08/1995
-67;Patricia Moraes;Feminino;7;PraÁa Central;41;;Centro;Itapira;S„o Paulo;13970-782;16/06/1978
-68;Elisa Campos;Feminino;13;Rua das Flores;452;Bloco A;Centro;Itapira;S„o Paulo;13970-525;02/04/1988
-69;Luiz Ot·vio Pereira;Masculino;9;Rua Paris;804;Bloco A;Jardim Europa;Itapira;S„o Paulo;13970-404;11/06/1993
-70;AntÙnio Carlos Jobim;Masculino;5;Rua das CamÈlias;686;;Vila Rezende;Itapira;S„o Paulo;13970-070;21/10/1987
-71;Fernando Pessoa;Masculino;4;Rua Paris;162;Casa;Jardim Europa;Itapira;S„o Paulo;13970-391;05/07/1969
-72;Vicente Ferreira;Feminino;3;Rua Santa Rita;490;;Santa Marta;Itapira;S„o Paulo;13970-696;06/05/1981
-73;Lucas Gabriel das Neves;Masculino;1;Rua S„o Paulo;386;;Vila Nova;Itapira;S„o Paulo;13970-284;07/02/1959
-74;Fernando Peixoto;Feminino;1;Rua dos LÌrios;986;Bloco A;Vila Iveta;Itapira;S„o Paulo;13970-973;12/07/1955
-75;Marina Lopes;Feminino;12;Rua Vista Alegre;785;;Boa Vista;Itapira;S„o Paulo;13970-219;24/09/1958
-76;Henrique Azevedo;Masculino;11;Rua das Violetas;104;Apto;Vila Iveta;Itapira;S„o Paulo;13970-068;24/10/2005
-77;Lara Almeida;Masculino;3;Rua Paris;929;;Jardim Europa;Itapira;S„o Paulo;13970-046;27/02/2006
-78;Lucas Gabriel Duarte;Masculino;6;Rua das OrquÌdeas;393;Casa;Vila Iveta;Itapira;S„o Paulo;13970-093;10/09/1959
-79;Augusto Ferreira;Masculino;7;Rua Roma;811;;Jardim Europa;Itapira;S„o Paulo;13970-749;24/05/1995
-80;Dra. Alexia Pires;Feminino;6;Rua Vista Alegre;246;;Boa Vista;Itapira;S„o Paulo;13970-957;07/03/2002
-81;Rebeca Dias;Feminino;14;Rua S„o Benedito;176;Bloco A;S„o Benedito;Itapira;S„o Paulo;13970-452;20/05/1970
-82;Luigi Souza;Feminino;14;Rua Paris;39;Bloco B;Jardim Europa;Itapira;S„o Paulo;13970-919;24/09/1975
-83;Ana Sophia Porto;Feminino;6;Rua das CamÈlias;477;Bloco B;Vila Rezende;Itapira;S„o Paulo;13970-911;25/11/1998
-84;Davi Luiz Lima;Feminino;6;Rua dos LÌrios;682;;Vila Iveta;Itapira;S„o Paulo;13970-217;22/01/1966
-85;LÌvia Moura;Feminino;13;Rua das OrquÌdeas;759;;Vila Iveta;Itapira;S„o Paulo;13970-473;10/08/1972
-86;Ana Sophia Nunes;Masculino;3;Rua dos Jacarand·s;538;;Vila Rezende;Itapira;S„o Paulo;13970-216;01/11/1988
-87;Benjamin Barros;Feminino;6;Rua das Flores;867;Apto;Centro;Itapira;S„o Paulo;13970-340;21/11/1959
-88;Srta. Pietra Cardoso;Masculino;8;Rua da FÈ;818;;Jardim S„o Pedro;Itapira;S„o Paulo;13970-550;01/03/1991
-89;Dr. Jo„o Vitor Rodrigues;Masculino;11;Rua do Ros·rio;921;Bloco B;S„o Benedito;Itapira;S„o Paulo;13970-611;02/08/2004
-90;Elisa Caldeira;Feminino;11;Rua Santa Rita;408;;Santa Marta;Itapira;S„o Paulo;13970-288;23/08/1987
-91;Pedro Miguel Nogueira;Masculino;2;Rua Roma;525;Bloco A;Jardim Europa;Itapira;S„o Paulo;13970-253;25/09/1983
-92;Clarice da Mota;Feminino;5;Rua das CamÈlias;828;;Vila Rezende;Itapira;S„o Paulo;13970-733;21/12/1974
-93;Thomas Costela;Masculino;14;Rua Panor‚mica;506;Bloco B;Boa Vista;Itapira;S„o Paulo;13970-356;06/01/1983
-94;Carolina Arag„o;Feminino;1;Rua Roma;903;;Jardim Europa;Itapira;S„o Paulo;13970-022;27/01/1955
-95;Dr. Lorenzo Oliveira;Masculino;12;Rua da FÈ;825;;Jardim S„o Pedro;Itapira;S„o Paulo;13970-992;18/03/1996
-96;Ian Santos;Feminino;1;Rua Vista Alegre;36;Casa;Boa Vista;Itapira;S„o Paulo;13970-521;28/11/1958
-97;Sra. Gabrielly Barros;Feminino;5;Rua S„o Paulo;685;;Vila Nova;Itapira;S„o Paulo;13970-757;02/01/1999
-98;Dr. Levi Rodrigues;Feminino;12;Rua dos LÌrios;20;;Vila Iveta;Itapira;S„o Paulo;13970-836;22/10/1971
-99;AntÙnio FogaÁa;Feminino;13;Rua S„o Paulo;321;Bloco A;Vila Nova;Itapira;S„o Paulo;13970-099;28/06/1969
-100;Erick Caldeira;Feminino;3;Rua Berlim;776;Casa;Jardim Europa;Itapira;S„o Paulo;13970-801;15/06/1967
-101;Vitor Moreira;Masculino;4;Rua dos Pioneiros;512;;Jardim S„o Pedro;Itapira;S„o Paulo;13970-179;18/10/1987
+id_cliente;nome_cliente;endereco_rua;endereco_numero;endereco_complemento;endereco_bairro;endereco_cidade;endereco_estado;endereco_cep;data_nascimento;email;telefone
+1;Ana Beatriz de Oliveira;Rua Berlim;711;Bloco B;Jardim Europa;Itapira;S√£o Paulo;13970-672;13/05/1989;ana.oliveira@exemplo.com;(19) 8061-4084
+2;Felipe Martins Carvalho;Rua Roma;558;Bloco B;Jardim Europa;Itapira;S√£o Paulo;13970-691;14/08/1996;felipe.carvalho@exemplo.com;(19) 4108-8056
+3;Ricardo Neves;Pra√ßa Central;63;;Centro;Itapira;S√£o Paulo;13970-057;18/05/1974;ricardo.neves@exemplo.com;(19) 9455-4901
+4;Lucas Ferreira Lima;Rua Berlim;188;Bloco A;Jardim Europa;Itapira;S√£o Paulo;13970-380;24/10/1995;lucas.lima@exemplo.com;(19) 9449-9447
+5;Matheus Henrique de Souza;Pra√ßa Central;869;Apto;Centro;Itapira;S√£o Paulo;13970-998;07/07/1978;matheus.souza@exemplo.com;(19) 9831-5430
+6;Andr√© Luiz Santos;Rua dos Jacarand√°s;880;Bloco B;Vila Rezende;Itapira;S√£o Paulo;13970-538;08/08/1987;andr√©.santos@exemplo.com;(19) 7198-5372
+7;Jorge Fernandes;Av. Marginal;843;Bloco A;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-920;12/02/2003;jorge.fernandes@exemplo.com;(19) 5221-5481
+8;S√©rgio Rocha;Av. Marginal;393;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-617;02/08/1965;s√©rgio.rocha@exemplo.com;(19) 2445-9595
+9;Isabela Ferreira;Rua das F√°bricas;722;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-586;18/02/1983;isabela.ferreira@exemplo.com;(19) 2040-5828
+10;Camila Rocha;Rua Roma;300;;Jardim Europa;Itapira;S√£o Paulo;13970-663;19/04/1998;camila.rocha@exemplo.com;(19) 2202-3806
+11;Maria Clara dos Santos;Rua dos Jacarand√°s;61;;Vila Rezende;Itapira;S√£o Paulo;13970-336;14/04/1991;maria.santos@exemplo.com;(19) 9286-4965
+12;Leonardo Martins;Rua Berlim;155;Bloco B;Jardim Europa;Itapira;S√£o Paulo;13970-756;09/01/1976;leonardo.martins@exemplo.com;(19) 6397-4307
+13;M√°rcio Silva;Rua Roma;796;Bloco B;Jardim Europa;Itapira;S√£o Paulo;13970-643;04/10/1997;m√°rcio.silva@exemplo.com;(19) 9362-6482
+14;Gustavo Henrique;Rua das Cam√©lias;229;;Vila Rezende;Itapira;S√£o Paulo;13970-287;08/12/1975;gustavo.henrique@exemplo.com;(19) 3139-2629
+15;Vin√≠cius Costa;Rua dos Jacarand√°s;456;Apto;Vila Rezende;Itapira;S√£o Paulo;13970-595;01/10/1972;vin√≠cius.costa@exemplo.com;(19) 6281-6545
+16;Heitor Vilela;Rua dos Jacarand√°s;917;;Vila Rezende;Itapira;S√£o Paulo;13970-775;03/03/2004;heitor.vilela@exemplo.com;(19) 8675-4934
+17;Oscar Neto;Rua dos Jacarand√°s;984;;Vila Rezende;Itapira;S√£o Paulo;13970-193;16/09/1966;oscar.neto@exemplo.com;(19) 4008-6016
+18;Ricardo Neves;Rua das F√°bricas;116;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-238;03/06/1974;ricardo.neves@exemplo.com;(19) 8486-2659
+19;Eduardo Pereira Gomes;Rua S√£o Lucas;37;;Vila Nova;Itapira;S√£o Paulo;13970-735;02/10/1966;eduardo.gomes@exemplo.com;(19) 5070-3711
+20;Roberto Souza;Rua S√£o Paulo;416;Bloco A;Vila Nova;Itapira;S√£o Paulo;13970-678;19/11/2000;roberto.souza@exemplo.com;(19) 5680-8011
+21;Lucas Ferreira Lima;Rua das Cam√©lias;183;;Vila Rezende;Itapira;S√£o Paulo;13970-546;03/05/1995;lucas.lima@exemplo.com;(19) 7797-3541
+22;Matheus Henrique de Souza;Rua S√£o Paulo;408;Apto;Vila Nova;Itapira;S√£o Paulo;13970-310;18/04/1978;matheus.souza@exemplo.com;(19) 8039-7403
+23;Andr√© Luiz Santos;Rua S√£o Paulo;473;Casa;Vila Nova;Itapira;S√£o Paulo;13970-646;25/11/1987;andr√©.santos@exemplo.com;(19) 4837-2466
+24;Carla Dias;Rua das Azal√©ias;619;;Vila Rezende;Itapira;S√£o Paulo;13970-186;21/11/1995;carla.dias@exemplo.com;(19) 9513-5544
+25;Jorge Fernandes;Rua S√£o Lucas;389;Bloco A;Vila Nova;Itapira;S√£o Paulo;13970-657;05/06/2003;jorge.fernandes@exemplo.com;(19) 6387-3996
+26;S√©rgio Rocha;Rua Paris;812;Bloco A;Jardim Europa;Itapira;S√£o Paulo;13970-612;20/03/1965;s√©rgio.rocha@exemplo.com;(19) 3703-8807
+27;Maria Clara dos Santos;Rua das Flores;199;;Centro;Itapira;S√£o Paulo;13970-080;17/03/1991;maria.santos@exemplo.com;(19) 8959-8304
+28;Leonardo Martins;Av. dos Comerciantes;914;;Centro;Itapira;S√£o Paulo;13970-610;06/01/1976;leonardo.martins@exemplo.com;(19) 4043-3085
+29;M√°rcio Silva;Rua das Azal√©ias;951;;Vila Rezende;Itapira;S√£o Paulo;13970-311;12/02/1997;m√°rcio.silva@exemplo.com;(19) 8053-6051
+30;Vin√≠cius Costa;Av. Industrial;363;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-848;21/05/1972;vin√≠cius.costa@exemplo.com;(19) 6932-1313
+31;Heitor Vilela;Rua dos Jacarand√°s;152;;Vila Rezende;Itapira;S√£o Paulo;13970-468;26/04/2004;heitor.vilela@exemplo.com;(19) 6487-6494
+32;Ricardo Neves;Rua das F√°bricas;913;Apto;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-137;07/03/1974;ricardo.neves@exemplo.com;(19) 7268-9205
+33;Lucas Ferreira Lima;Pra√ßa Central;615;Apto;Centro;Itapira;S√£o Paulo;13970-559;12/05/1995;lucas.lima@exemplo.com;(19) 6336-1476
+34;Matheus Henrique de Souza;Rua das Cam√©lias;724;;Vila Rezende;Itapira;S√£o Paulo;13970-126;04/05/1978;matheus.souza@exemplo.com;(19) 3877-3169
+35;Andr√© Luiz Santos;Rua Berlim;749;;Jardim Europa;Itapira;S√£o Paulo;13970-664;06/06/1987;andr√©.santos@exemplo.com;(19) 5440-2295
+36;Jorge Fernandes;Rua S√£o Paulo;134;Bloco A;Vila Nova;Itapira;S√£o Paulo;13970-435;09/01/2003;jorge.fernandes@exemplo.com;(19) 6682-7456
+37;S√©rgio Rocha;Av. Industrial;340;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-264;13/05/1965;s√©rgio.rocha@exemplo.com;(19) 5532-9546
+38;Maria Clara dos Santos;Rua S√£o Paulo;567;;Vila Nova;Itapira;S√£o Paulo;13970-333;15/10/1991;maria.santos@exemplo.com;(19) 7765-5777
+39;Leonardo Martins;Rua S√£o Jos√©;532;;Vila Nova;Itapira;S√£o Paulo;13970-718;19/03/1976;leonardo.martins@exemplo.com;(19) 5350-7031
+40;M√°rcio Silva;Rua das Azal√©ias;686;Bloco A;Vila Rezende;Itapira;S√£o Paulo;13970-393;13/06/1997;m√°rcio.silva@exemplo.com;(19) 6086-2068
+41;Vin√≠cius Costa;Rua S√£o Jos√©;363;;Vila Nova;Itapira;S√£o Paulo;13970-622;27/09/1972;vin√≠cius.costa@exemplo.com;(19) 7038-8283
+42;Heitor Vilela;Rua Roma;566;Casa;Jardim Europa;Itapira;S√£o Paulo;13970-023;21/10/2004;heitor.vilela@exemplo.com;(19) 4423-1250
+43;Ricardo Neves;Rua S√£o Jos√©;50;Bloco B;Vila Nova;Itapira;S√£o Paulo;13970-237;27/07/1974;ricardo.neves@exemplo.com;(19) 1221-8157
+44;Lucas Ferreira Lima;Rua das Cam√©lias;216;;Vila Rezende;Itapira;S√£o Paulo;13970-302;26/07/1995;lucas.lima@exemplo.com;(19) 4360-2526
+45;Matheus Henrique de Souza;Rua Paris;627;Casa;Jardim Europa;Itapira;S√£o Paulo;13970-366;20/03/1978;matheus.souza@exemplo.com;(19) 1081-3726
+46;Andr√© Luiz Santos;Av. dos Comerciantes;667;;Centro;Itapira;S√£o Paulo;13970-494;14/08/1987;andr√©.santos@exemplo.com;(19) 3635-9265
+47;Jorge Fernandes;Rua S√£o Jos√©;693;Casa;Vila Nova;Itapira;S√£o Paulo;13970-126;26/07/2003;jorge.fernandes@exemplo.com;(19) 2534-1765
+48;S√©rgio Rocha;Rua dos Jacarand√°s;127;Casa;Vila Rezende;Itapira;S√£o Paulo;13970-980;22/05/1965;s√©rgio.rocha@exemplo.com;(19) 2232-3499
+49;Maria Clara dos Santos;Pra√ßa Central;32;Apto;Centro;Itapira;S√£o Paulo;13970-301;14/08/1991;maria.santos@exemplo.com;(19) 4057-8544
+50;Leonardo Martins;Rua das Flores;320;;Centro;Itapira;S√£o Paulo;13970-726;13/06/1976;leonardo.martins@exemplo.com;(19) 4718-3611
+51;M√°rcio Silva;Rua das F√°bricas;267;Bloco B;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-373;13/09/1997;m√°rcio.silva@exemplo.com;(19) 2104-7193
+52;Vin√≠cius Costa;Rua Paris;355;;Jardim Europa;Itapira;S√£o Paulo;13970-120;28/06/1972;vin√≠cius.costa@exemplo.com;(19) 4850-9946
+53;Heitor Vilela;Rua S√£o Paulo;916;;Vila Nova;Itapira;S√£o Paulo;13970-300;06/08/2004;heitor.vilela@exemplo.com;(19) 4049-8314
+54;Ricardo Neves;Rua dos Jacarand√°s;813;;Vila Rezende;Itapira;S√£o Paulo;13970-880;27/04/1974;ricardo.neves@exemplo.com;(19) 9156-2430
+55;Lucas Ferreira Lima;Av. Marginal;760;Apto;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-793;02/08/1995;lucas.lima@exemplo.com;(19) 2087-3955
+56;Matheus Henrique de Souza;Rua Paris;900;Casa;Jardim Europa;Itapira;S√£o Paulo;13970-818;28/11/1978;matheus.souza@exemplo.com;(19) 1394-3110
+57;Andr√© Luiz Santos;Av. Industrial;695;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-430;07/04/1987;andr√©.santos@exemplo.com;(19) 5910-4995
+58;Jorge Fernandes;Rua Paris;322;Apto;Jardim Europa;Itapira;S√£o Paulo;13970-650;19/10/2003;jorge.fernandes@exemplo.com;(19) 3519-6742
+59;S√©rgio Rocha;Rua Paris;718;;Jardim Europa;Itapira;S√£o Paulo;13970-314;26/05/1965;s√©rgio.rocha@exemplo.com;(19) 5622-6033
+60;Maria Clara dos Santos;Rua S√£o Lucas;296;Casa;Vila Nova;Itapira;S√£o Paulo;13970-486;25/02/1991;maria.santos@exemplo.com;(19) 4441-8174
+61;Leonardo Martins;Rua Paris;614;;Jardim Europa;Itapira;S√£o Paulo;13970-176;02/06/1976;leonardo.martins@exemplo.com;(19) 2169-1843
+62;M√°rcio Silva;Rua das F√°bricas;503;Casa;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-945;20/05/1997;m√°rcio.silva@exemplo.com;(19) 5963-7758
+63;Vin√≠cius Costa;Rua Roma;343;;Jardim Europa;Itapira;S√£o Paulo;13970-174;16/07/1972;vin√≠cius.costa@exemplo.com;(19) 3751-5293
+64;Heitor Vilela;Rua S√£o Paulo;614;Bloco A;Vila Nova;Itapira;S√£o Paulo;13970-897;15/05/2004;heitor.vilela@exemplo.com;(19) 1939-4542
+65;Ricardo Neves;Rua S√£o Lucas;320;;Vila Nova;Itapira;S√£o Paulo;13970-190;17/08/1974;ricardo.neves@exemplo.com;(19) 5150-6156
+66;Carla Dias;Rua das F√°bricas;814;;Parque das Ind√∫strias;Itapira;S√£o Paulo;13970-051;10/08/1995;carla.dias@exemplo.com;(19) 9979-6224
+67;Patricia Moraes;Pra√ßa Central;41;;Centro;Itapira;S√£o Paulo;13970-782;16/06/1978;patricia.moraes@exemplo.com;(19) 8051-5490
+68;Elisa Campos;Rua das Flores;452;Bloco A;Centro;Itapira;S√£o Paulo;13970-525;02/04/1988;elisa.campos@exemplo.com;(19) 5898-5087
+69;Luiz Ot√°vio Pereira;Rua Paris;804;Bloco A;Jardim Europa;Itapira;S√£o Paulo;13970-404;11/06/1993;luiz.pereira@exemplo.com;(19) 1192-3283
+70;Ant√¥nio Carlos Jobim;Rua das Cam√©lias;686;;Vila Rezende;Itapira;S√£o Paulo;13970-070;21/10/1987;ant√¥nio.jobim@exemplo.com;(19) 8139-9610
+71;Fernando Pessoa;Rua Paris;162;Casa;Jardim Europa;Itapira;S√£o Paulo;13970-391;05/07/1969;fernando.pessoa@exemplo.com;(19) 9203-5642
+72;Vicente Ferreira;Rua Santa Rita;490;;Santa Marta;Itapira;S√£o Paulo;13970-696;06/05/1981;vicente.ferreira@exemplo.com;(19) 2311-1636
+73;Lucas Gabriel das Neves;Rua S√£o Paulo;386;;Vila Nova;Itapira;S√£o Paulo;13970-284;07/02/1959;lucas.neves@exemplo.com;(19) 7114-6296
+74;Fernando Peixoto;Rua dos L√≠rios;986;Bloco A;Vila Iveta;Itapira;S√£o Paulo;13970-973;12/07/1955;fernando.peixoto@exemplo.com;(19) 7214-7983
+75;Marina Lopes;Rua Vista Alegre;785;;Boa Vista;Itapira;S√£o Paulo;13970-219;24/09/1958;marina.lopes@exemplo.com;(19) 1098-4774
+76;Henrique Azevedo;Rua das Violetas;104;Apto;Vila Iveta;Itapira;S√£o Paulo;13970-068;24/10/2005;henrique.azevedo@exemplo.com;(19) 4117-2805
+77;Lara Almeida;Rua Paris;929;;Jardim Europa;Itapira;S√£o Paulo;13970-046;27/02/2006;lara.almeida@exemplo.com;(19) 7700-5707
+78;Lucas Gabriel Duarte;Rua das Orqu√≠deas;393;Casa;Vila Iveta;Itapira;S√£o Paulo;13970-093;10/09/1959;lucas.duarte@exemplo.com;(19) 6974-5412
+79;Augusto Ferreira;Rua Roma;811;;Jardim Europa;Itapira;S√£o Paulo;13970-749;24/05/1995;augusto.ferreira@exemplo.com;(19) 4794-2747
+80;Dra. Alexia Pires;Rua Vista Alegre;246;;Boa Vista;Itapira;S√£o Paulo;13970-957;07/03/2002;dra..pires@exemplo.com;(19) 6826-2938
+81;Rebeca Dias;Rua S√£o Benedito;176;Bloco A;S√£o Benedito;Itapira;S√£o Paulo;13970-452;20/05/1970;rebeca.dias@exemplo.com;(19) 8295-8703
+82;Luigi Souza;Rua Paris;39;Bloco B;Jardim Europa;Itapira;S√£o Paulo;13970-919;24/09/1975;luigi.souza@exemplo.com;(19) 3197-1232
+83;Ana Sophia Porto;Rua das Cam√©lias;477;Bloco B;Vila Rezende;Itapira;S√£o Paulo;13970-911;25/11/1998;ana.porto@exemplo.com;(19) 1051-9340
+84;Davi Luiz Lima;Rua dos L√≠rios;682;;Vila Iveta;Itapira;S√£o Paulo;13970-217;22/01/1966;davi.lima@exemplo.com;(19) 9566-7407
+85;L√≠via Moura;Rua das Orqu√≠deas;759;;Vila Iveta;Itapira;S√£o Paulo;13970-473;10/08/1972;l√≠via.moura@exemplo.com;(19) 9419-9696
+86;Ana Sophia Nunes;Rua dos Jacarand√°s;538;;Vila Rezende;Itapira;S√£o Paulo;13970-216;01/11/1988;ana.nunes@exemplo.com;(19) 8045-1233
+87;Benjamin Barros;Rua das Flores;867;Apto;Centro;Itapira;S√£o Paulo;13970-340;21/11/1959;benjamin.barros@exemplo.com;(19) 5416-5443
+88;Srta. Pietra Cardoso;Rua da F√©;818;;Jardim S√£o Pedro;Itapira;S√£o Paulo;13970-550;01/03/1991;srta..cardoso@exemplo.com;(19) 5373-6346
+89;Dr. Jo√£o Vitor Rodrigues;Rua do Ros√°rio;921;Bloco B;S√£o Benedito;Itapira;S√£o Paulo;13970-611;02/08/2004;dr..rodrigues@exemplo.com;(19) 8541-3328
+90;Elisa Caldeira;Rua Santa Rita;408;;Santa Marta;Itapira;S√£o Paulo;13970-288;23/08/1987;elisa.caldeira@exemplo.com;(19) 6867-6386
+91;Pedro Miguel Nogueira;Rua Roma;525;Bloco A;Jardim Europa;Itapira;S√£o Paulo;13970-253;25/09/1983;pedro.nogueira@exemplo.com;(19) 3992-5138
+92;Clarice da Mota;Rua das Cam√©lias;828;;Vila Rezende;Itapira;S√£o Paulo;13970-733;21/12/1974;clarice.mota@exemplo.com;(19) 7239-1455
+93;Thomas Costela;Rua Panor√¢mica;506;Bloco B;Boa Vista;Itapira;S√£o Paulo;13970-356;06/01/1983;thomas.costela@exemplo.com;(19) 5602-9095
+94;Carolina Arag√£o;Rua Roma;903;;Jardim Europa;Itapira;S√£o Paulo;13970-022;27/01/1955;carolina.arag√£o@exemplo.com;(19) 2059-9033
+95;Dr. Lorenzo Oliveira;Rua da F√©;825;;Jardim S√£o Pedro;Itapira;S√£o Paulo;13970-992;18/03/1996;dr..oliveira@exemplo.com;(19) 3802-8228
+96;Ian Santos;Rua Vista Alegre;36;Casa;Boa Vista;Itapira;S√£o Paulo;13970-521;28/11/1958;ian.santos@exemplo.com;(19) 8206-7828
+97;Sra. Gabrielly Barros;Rua S√£o Paulo;685;;Vila Nova;Itapira;S√£o Paulo;13970-757;02/01/1999;sra..barros@exemplo.com;(19) 8595-9044
+98;Dr. Levi Rodrigues;Rua dos L√≠rios;20;;Vila Iveta;Itapira;S√£o Paulo;13970-836;22/10/1971;dr..rodrigues@exemplo.com;(19) 4785-7787
+99;Ant√¥nio Foga√ßa;Rua S√£o Paulo;321;Bloco A;Vila Nova;Itapira;S√£o Paulo;13970-099;28/06/1969;ant√¥nio.foga√ßa@exemplo.com;(19) 7793-7027
+100;Erick Caldeira;Rua Berlim;776;Casa;Jardim Europa;Itapira;S√£o Paulo;13970-801;15/06/1967;erick.caldeira@exemplo.com;(19) 2553-7100
+101;Vitor Moreira;Rua dos Pioneiros;512;;Jardim S√£o Pedro;Itapira;S√£o Paulo;13970-179;18/10/1987;vitor.moreira@exemplo.com;(19) 1655-9761
