@@ -1,9 +1,9 @@
-Funcionario_ID;Nome;Data_de_Contratacao;Cargo;Nivel_de_Experiencia;Status_de_Emprego;Qualificacoes
-1;João da Silva;10/01/2020;Gerente;Avançado;Ativo;Gestão de Negócios
-2;Maria Fernandes;15/05/2020;Atendente de Balcão/Caixa;Intermediário;Ativo;Atendimento ao Cliente
-3;Ana Paula;20/02/2020;Atendente de Balcão/Caixa;Intermediário;Ativo;Atendimento ao Cliente
-4;Roberto Carlos;22/07/2021;Chapeiro/Chef de Cozinha;Avançado;Afastado;Cursos de Gastronomia
-5;Felipe Neto;15/08/2021;Chapeiro/Chef de Cozinha;Avançado;Ativo;Cursos de Gastronomia
-6;Carlos Eduardo;01/09/2021;Chapeiro/Chef de Cozinha;Iniciante;Ativo;Curso Básico de Cozinha
-7;Luísa Marilac;06/01/2022;Auxiliar de Cozinha;Intermediário;Ativo;Higiene Alimentar
-8;Eduardo Campos;12/03/2022;Garçom/Garçonete;Intermediário;Ativo;Curso de Serviço de Mesa
+funcionario_id;nome;cargo;data_contratacao;nivel_experiencia;status;qualificacoes
+1;JoÃ£o da Silva;Gerente;10/01/2020;AvanÃ§ado;Ativo;GestÃ£o de NegÃ³cios
+2;Maria Fernandes;Atendente de BalcÃ£o/Caixa;15/05/2020;IntermediÃ¡rio;Ativo;Atendimento ao Cliente
+3;Ana Paula;Atendente de BalcÃ£o/Caixa;20/02/2020;IntermediÃ¡rio;Ativo;Atendimento ao Cliente
+4;Roberto Carlos;Chapeiro/Chef de Cozinha;22/07/2021;AvanÃ§ado;Afastado;Cursos de Gastronomia
+5;Felipe Neto;Chapeiro/Chef de Cozinha;15/08/2021;AvanÃ§ado;Ativo;Cursos de Gastronomia
+6;Carlos Eduardo;Chapeiro/Chef de Cozinha;01/09/2021;Iniciante;Ativo;Curso BÃ¡sico de Cozinha
+7;LuÃ­sa Marilac;Auxiliar de Cozinha;06/01/2022;IntermediÃ¡rio;Ativo;Higiene Alimentar
+8;Eduardo Campos;GarÃ§om/GarÃ§onete;12/03/2022;IntermediÃ¡rio;Ativo;Curso de ServiÃ§o de Mesa
