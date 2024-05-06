@@ -84,3 +84,44 @@ CREATE TABLE Reclamacoes (
     FOREIGN KEY (cliente_id) REFERENCES Clientes(cliente_id),
     FOREIGN KEY (funcionario_id) REFERENCES Funcionarios(funcionario_id)
 );
+
+-- Criação tabela fato
+CREATE TABLE Fato_Vendas_Reclamacoes (
+    fato_id INT PRIMARY KEY AUTO_INCREMENT,
+    data_id INT,
+    cliente_id INT,
+    funcionario_id INT,
+    produto_id INT,
+    quantidade_vendida INT,
+    valor_vendas DECIMAL(10, 2),
+    quantidade_reclamacoes INT DEFAULT 0,
+    tipo_reclamacao VARCHAR(255),
+    FOREIGN KEY (data_id) REFERENCES Data(DataCompleta),
+    FOREIGN KEY (cliente_id) REFERENCES Cliente(cliente_id),
+    FOREIGN KEY (funcionario_id) REFERENCES Funcionario(funcionario_id),
+    FOREIGN KEY (produto_id) REFERENCES Produto(produto_id)
+);
+
+-- Script preencher tabela fato
+INSERT INTO Fato_Vendas_Reclamacoes
+(data_id, cliente_id, funcionario_id, produto_id, quantidade_vendida, valor_vendas, quantidade_reclamacoes, tipo_reclamacao)
+SELECT
+    D.data_id,
+    P.cliente_id,
+    P.funcionario_id,
+    IP.produto_id,
+    SUM(IP.quantidade) AS quantidade_vendida,
+    SUM(IP.quantidade * IP.preco_unitario) AS valor_vendas,
+    COUNT(R.reclamacao_id) AS quantidade_reclamacoes,
+    R.tipo_reclamacao
+FROM
+    Pedidos P
+JOIN Itens_Pedidos IP ON P.pedido_id = IP.pedido_id
+LEFT JOIN Reclamacoes R ON P.pedido_id = R.pedido_id
+JOIN Data D ON D.DataCompleta = P.data_pedido
+GROUP BY
+    D.data_id,
+    P.cliente_id,
+    P.funcionario_id,
+    IP.produto_id,
+    R.tipo_reclamacao;
