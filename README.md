@@ -45,6 +45,9 @@ Descrição: Registra reclamações associadas a pedidos.
 
 ![Modelo Estrela - tabelas](img/modelo_estrela.png)
 
+![Modelo Relacional - tabelas](img/diagrama_relacional.jpeg)
+
+
 ## Aplicações e Cenários  
 
 Problema Principal: Reclamações frequentes de clientes e uma queda notável no
