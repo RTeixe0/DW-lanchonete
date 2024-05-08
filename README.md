@@ -1,75 +1,139 @@
-# Análise de Incidentes de Trânsito no Brasil  
+# Análise das Reclamações Frequentes de Clientes e Queda no Número de Pedidos
 
-*Dados dos Dados Abertos da PRF 2018-2023 (Polícia Rodoviária Federal)*  
+*Dados Gerados pelos Alunos*  
 
 **Data do Relatório:** 08/05/2024  
 
+
 ## Sobre o conjunto de dados  
 
-O conjunto de dados de Incidentes de Trânsito no Brasil abrange uma ampla gama de informações relacionadas aos incidentes de trânsito ocorridos no país nos últimos seis anos. Esses dados fornecem uma visão abrangente do comportamento do tráfego no Brasil, permitindo a análise de tendências, identificação de rodovias perigosas e uma compreensão mais profunda das características do tráfego nas rodovias brasileiras.
-  
+Este repositório contém um conjunto de dados gerado artificialmente, projetado para simular situações reais enfrentadas por empresas em termos de operações de vendas e atendimento ao cliente. Este dataset serve como base para a análise de reclamações frequentes de clientes e identificação de fatores associados à redução no número de pedidos.
+
 ## Descrição dos Dados  
 
-Os dados incluem uma variedade de informações detalhadas sobre os incidentes de trânsito, como localização específica das rodovias, data, hora, tipo de incidente, causa e número de feridos. As informações de localização abrangem cidade, estado e coordenadas geográficas, permitindo uma análise precisa da distribuição geográfica dos incidentes.
+Os dados simulam interações de clientes, operações de venda, e feedback de serviços, incluindo:
 
-## Fonte dos Dados  
+• Pedidos com detalhes de data, produto, e quantidade.
+• Reclamações categorizadas por tipo e associadas a pedidos específicos.
+• Informações de funcionários associados a cada transação.
 
-[Link da base de dados](https://www.kaggle.com/datasets/tgomesjuliana/police-traffic-incidents?select=Dados_PRF_2023.csv)  
 
 ## Conjunto de Dados Modelo Estrela DW
 
-O conjunto de dados utilizado neste projeto é composto por várias tabelas armazenadas no banco de dados "dados_BrazilTraffic_Incidents" no ambiente Microsoft Fabric. As tabelas principais schema Star são as seguintes:
+Visão Geral do Banco de Dados
 
-1. **Dim_Data:** Esta tabela contém informações sobre a data e hora dos incidentes de trânsito, incluindo o ID da data, a data no formato "AAAA-MM-DD", o dia da semana e o horário.
-2. **Dim_Localizacao:** Essa tabela inclui detalhes sobre a localização dos incidentes, como o ID da localização, a UF (Unidade Federativa), a BR (Rodovia), o KM, o município, a latitude e a longitude.
-3. **Dim_Condicoes:** Esta tabela contém informações sobre as condições de tráfego no momento dos incidentes, incluindo o ID das condições, a condição meteorológica, o tipo de pista, o traçado da via e o uso do solo.
-4. **Dim_Radar:** Essa tabela fornece dados sobre os radares de tráfego, incluindo o ID do radar, a concessionária, o ano do PNV/SNV (Plano Nacional de Viação/Sistema Nacional de Viação), o tipo de radar, a rodovia, a UF, o KM, o município, o tipo de pista, o sentido, a situação, a data de inativação, a latitude, a longitude, as velocidades para veículos leves e pesados.
-5. **Dim_Detalhes_Acidente:** Esta tabela contém informações detalhadas sobre as causas, tipos e classificações dos acidentes, bem como a fase do dia e o sentido da via.
-6. **Fatos_Acidentes:** Esta tabela é a tabela de fatos principal, que relaciona os incidentes de trânsito com as informações das outras tabelas. Ela inclui o ID do acidente, o ID do radar, o ID da data, o ID da localização, o ID das condições, estatísticas sobre mortos, feridos leves, feridos graves, ilesos, ignorados, feridos e veículos envolvidos.
+O conjunto de dados para este projeto é armazenado no banco de dados denominado "lanchonete_beth", que está configurado no ambiente Microsoft Fabric. Este banco de dados contém diversas tabelas que são cruciais para a análise e operações diárias da lanchonete.
 
-![Modelo Estrela - tabelas](img/Schema_Star_traffic.png)
+• FatPedidos
+Descrição: Central para o modelo estrela, esta tabela armazena as transações de pedidos. Cada registro representa um pedido único e inclui medidas quantitativas como quantidade de itens vendidos e valores financeiros.
+
+• DimItensPedidos
+Descrição: Contém detalhes sobre os itens individuais em cada pedido, como quantidade e preço unitário.
+
+• DimProduto
+Descrição: Armazena informações sobre os produtos vendidos.
+
+• DimFuncionario
+Descrição: Detalhes sobre os funcionários que gerenciam ou realizam os pedidos.
+
+• DimCliente
+Descrição: Contém informações sobre os clientes.
+
+• DimReclamacoes
+Descrição: Registra reclamações associadas a pedidos.
+
+
+![Modelo Estrela - tabelas](img/modelo_estrela.png)
 
 ## Aplicações e Cenários  
 
-O conjunto de dados de Incidentes de Trânsito no Brasil pode ser empregado em diferentes domínios e cenários, tais como:
+Problema Principal: Reclamações frequentes de clientes e uma queda notável no
+número de pedidos.
 
-1. Planejamento de Tráfego:
-    - Os dados podem ser utilizados para planejar rotas mais seguras e eficientes, considerando as rodovias com menor ocorrência de incidentes.
-2. Educação e Conscientização no Trânsito:
-    - Os dados podem ser usados para desenvolver campanhas de conscientização sobre as principais causas de incidentes de trânsito, promovendo uma cultura de segurança no tráfego.
-3. Melhoria da Infraestrutura:
-    - A análise dos dados pode auxiliar na identificação de trechos de rodovias com alta incidência de acidentes, direcionando recursos para a melhoria da infraestrutura nesses locais.
+Aspectos Específicos do Problema:
+Reclamações de Clientes: Identificar os principais motivos das reclamações, como
+tempo de espera, qualidade da comida, atendimento ao cliente, etc.
+Queda no Número de Pedidos: Analisar os períodos de declínio nas vendas e associá-los
+a fatores internos (como mudanças no menu, alterações nos preços, qualidade do
+serviço).
+
+Os dados são utilizados para:
+
+1. Analisar as Causas das Reclamações Frequentes de Clientes
+Objetivo: Identificar e entender os principais motivos por trás das reclamações frequentes dos clientes para poder endereçar e mitigar essas questões de forma eficaz.
+Análise: Utilizar métodos de categorização para agrupar reclamações por tipo e analisar a frequência e as condições sob as quais ocorrem. Ferramentas analíticas podem ser usadas para identificar padrões ou correlações entre as reclamações e variáveis operacionais ou de produto.2. Investigar os Fatores que Contribuem para a Queda no Número de Pedidos
+
+2. Investigar os Fatores que Contribuem para a Queda no Número de Pedidos
+Objetivo: Compreender as razões por trás da redução nos volumes de pedidos para reverter essa tendência ou adaptar a estratégia de negócios conforme necessário.
+Análise: Avaliar as tendências de vendas ao longo do tempo com um foco particular nos períodos de declínio. Analisar as mudanças internas (como alterações de inventário ou política de preços) e externas (como condições econômicas ou ações de concorrentes) que podem influenciar esses números.
+
+3. Desenvolver Estratégias para Melhorar a Satisfação do Cliente e Eficiência Operacional
+Objetivo: Aumentar a satisfação do cliente e otimizar as operações para garantir um serviço eficiente e eficaz que possa impulsionar o crescimento e a rentabilidade do negócio.
+Análise: Medir e analisar a satisfação do cliente através de pesquisas e feedback direto. Examinar processos operacionais para identificar gargalos ou ineficiências que possam afetar a experiência do cliente.
 
 ## Exploração e Visualização de Dados  
+Objetivo: O processo de exploração e visualização de dados é crucial para transformar grandes volumes de dados brutos em insights acionáveis. Este processo abrange desde a preparação inicial dos dados até a apresentação final de informações em formatos visuais compreensíveis.
 
-A análise dos incidentes de trânsito foi realizada seguindo as etapas a seguir:
+Componentes Principais:
 
-1. **Carregamento e pré-processamento dos dados:** Os dados brutos foram importados para o Microsoft Fabric e transformados em um formato adequado para análise. Isso incluiu a extração das informações relevantes para as tabelas dimensionais e a criação da tabela de fatos.
-2. **Exploração e visualização dos dados**: Foram utilizadas consultas SQL para explorar os dados e gerar visualizações, como gráficos, para uma melhor compreensão dos incidentes de trânsito no Brasil.
-3. **Análise estatística:** Foram realizadas consultas SQL e cálculos estatísticos para identificar tendências, calcular estatísticas relevantes e obter insights sobre os incidentes de trânsito. Isso incluiu a contagem de incidentes por mês, a identificação das rodovias mais perigosas e a análise das causas e tipos de acidentes mais comuns.
-4. **Documentação e apresentação:** Os resultados da análise foram documentados em um relatório utilizando a formatação Markdown. O relatório inclui uma introdução, a descrição do conjunto de dados, a metodologia utilizada, os resultados obtidos e uma conclusão.
+Data Lake:
+    Descrição: Um data lake armazena grandes volumes de dados em seu formato natural (bruto). Ele é fundamental para organizações que coletam dados de várias fontes em diferentes formatos, pois permite uma flexibilidade significativa na manipulação e análise desses dados.
+    Função: No contexto deste projeto, o data lake serve como o repositório primário onde todos os dados coletados são armazenados antes de serem processados. Isso inclui dados gerados, logs de sistema, dados de transações, e mais.
+Data Pipeline:
+    Descrição: Um data pipeline é um conjunto de operações de dados sequenciais automatizadas, destinadas a permitir a transferência e transformação de dados de uma fonte para um destino.
+    Função: Para este projeto, o pipeline é responsável por extrair dados do data lake, transformá-los (limpeza, agregação e enriquecimento), e carregá-los no data warehouse ou em ferramentas de visualização. Este processo é crucial para garantir que os dados estejam prontos para análise e visualização no Power BI.
+Consultas SQL:
+    Descrição: SQL (Structured Query Language) é uma linguagem de programação utilizada para gerenciar e manipular bancos de dados relacionais.
+    Função: As consultas SQL são utilizadas para extrair dados específicos do data warehouse, baseando-se em critérios definidos. No contexto deste projeto, são utilizadas para analisar o desempenho dos funcionários, gerenciar reclamações dos clientes, e observar as tendências de vendas e pedidos.
+Power BI:
+    Descrição: Power BI é uma ferramenta de visualização de dados e business intelligence que permite transformar dados de várias fontes em dashboards interativos e relatórios analíticos.
+    Função: No projeto, o Power BI é usado para criar visualizações impactantes e dashboards que facilitam a interpretação dos dados. Ele permite aos stakeholders visualizar tendências, padrões e outliers rapidamente, facilitando a tomada de decisões baseada em dados.
+Documentação do Projeto:
+    Descrição: A documentação é um aspecto crítico de qualquer projeto de dados, proporcionando um registro detalhado do design do sistema, arquitetura de dados, processos de desenvolvimento, e insights derivados das análises.
+    Função: Para este projeto, a documentação inclui detalhes sobre a estrutura do data warehouse, descrições das tabelas e campos, um registro das consultas SQL utilizadas, e explicações das visualizações desenvolvidas no Power BI. Ela serve como um manual para usuários e desenvolvedores, facilitando a manutenção e escalabilidade do sistema e garantindo que novos membros da equipe possam entender e contribuir para o projeto eficazmente.
+
+Importância: A exploração e visualização de dados no contexto deste projeto são essenciais para identificar rapidamente áreas de melhoria na operação da empresa, avaliar o impacto de diferentes estratégias, e monitorar a saúde operacional e financeira da organização de forma contínua. A capacidade de visualizar complexas interações de dados de forma intuitiva é crucial para transformar dados em ações estratégicas eficazes.
 
 ## Resultados  
 
-A análise dos incidentes de trânsito no Brasil utilizando o conjunto de dados fornecido resultou nos seguintes insights:
+Os dados coletados e analisados revelam insights significativos, que são fundamentais para o direcionamento futuro das atividades da organização.
 
-1. **Horários de pico de acidentes**:  
-    - Foram identificados os momentos do dia em que ocorrem mais acidentes, proporcionando uma compreensão dos horários mais críticos para a segurança no trânsito.
-2. **Meses com maior ocorrência de acidentes**:  
-    - Foi possível identificar os meses do ano com maior número de acidentes, destacando os períodos que requerem maior atenção e medidas preventivas.
-3. **Dias da semana com mais acidentes:**  
-    - A análise revelou os dias da semana com maior incidência de acidentes, o que pode auxiliar na implementação de estratégias de fiscalização e prevenção específicas para esses dias.
-4. **Relação entre dia da semana e condição meteorológica:**  
-    - A análise mostrou como a condição climática pode afetar os acidentes de trânsito em diferentes dias da semana, fornecendo informações valiosas sobre os impactos das condições climáticas na segurança viária.
-5. **Localização (estado) com maior número de acidentes:**  
-    - Foram identificados os estados brasileiros com maior quantidade de acidentes, permitindo a adoção de medidas de segurança direcionadas a áreas específicas.
-6. **Tipos de radares mais associados a acidentes:**  
-    - A análise revelou os tipos de radares mais frequentemente relacionados a acidentes, possibilitando a implementação de ações específicas relacionadas a esses dispositivos para melhorar a segurança no trânsito.
-7. **Município com maior número de mortes em acidentes:**  
-    - Foi identificado o município com o maior número de mortes em acidentes dentro de um período específico, o que pode orientar a implementação de medidas de segurança direcionadas a essa região.
-8. **Contagem de acidentes por estado e causa:**  
-    - A análise permitiu compreender as causas dos acidentes em cada estado, fornecendo informações importantes para a implementação de medidas preventivas e educativas específicas para cada caso.
+1. Desempenho dos Funcionários
+Objetivo: Analisar o número total de pedidos gerenciados por cada funcionário, categorizados por nome e cargo.
+Descrição: Esta consulta mede a produtividade dos funcionários com base no número de pedidos que cada um gerencia. Através dela, a empresa pode identificar quais funcionários estão desempenhando acima ou abaixo das expectativas e ajustar cargas de trabalho ou reconhecer desempenho.
+
+2. Tipo de Reclamação e Funcionário Associado
+Objetivo: Identificar os tipos de reclamações e quantificar cada tipo, associando-os aos respectivos funcionários responsáveis pelos pedidos.
+Descrição: Esta consulta ajuda a identificar áreas problemáticas nos produtos ou serviços, ligando reclamações específicas aos funcionários que as gerenciaram. Isso pode indicar necessidades de treinamento ou ajustes em produtos/serviços.
+
+3. Análise da Queda nos Pedidos
+Objetivo: Examinar as tendências mensais nos números de pedidos e receitas, identificando possíveis declínios.
+Descrição: Essa consulta fornece uma visão mensal sobre o desempenho de vendas, ajudando a identificar meses com baixo desempenho em volume e valor de vendas. Isso permite investigar causas de variações sazonais ou eventuais problemas operacionais.
+
+4. Desempenho Detalhado dos Funcionários
+Objetivo: Avaliar o desempenho individual dos funcionários com base em sua experiência, data de contratação, e número de reclamações associadas.
+Descrição: Essa consulta detalha o impacto do nível de experiência e da data de contratação sobre as reclamações associadas a cada funcionário. Isso pode indicar a eficácia das políticas de contratação e treinamento.
+
+5. Análise das Reclamações por Data e Tipo
+Objetivo: Monitorar o volume e os tipos de reclamações ao longo do tempo para identificar padrões ou picos específicos.
+Descrição: Esta consulta permite visualizar como diferentes tipos de reclamações se distribuem ao longo dos meses, facilitando a identificação de problemas recorrentes ou sazonais e a eficácia de medidas corretivas implementadas.
+
+6. Total de Vendas de Produtos
+Objetivo: Analisar o total de vendas de produtos por categoria e mês, permitindo identificar quais categorias estão performando melhor ou pior em determinados períodos.
+Descrição: Esta consulta fornece uma visão clara das vendas por categoria de produto em cada mês, ajudando a planejar estratégias de marketing, promoções e ajustes de estoque baseados no desempenho de vendas, e ajudou a provar que não houve queda de pedidos relacionada aos produtos.
 
 ## Conclusão  
 
-A análise de incidentes de trânsito no Brasil nos últimos 17 anos fornece insights valiosos sobre o comportamento do tráfego e a segurança no trânsito no país. A compreensão das tendências, a identificação das rodovias mais perigosas e o reconhecimento das principais causas dos incidentes podem informar medidas preventivas e melhorar a segurança no trânsito. Essas informações são cruciais para gestores de tráfego, órgãos reguladores e profissionais envolvidos na segurança no trânsito, contribuindo para a redução de acidentes e salvando vidas.
+Influência do Desempenho dos Funcionários na Queda dos Pedidos:
+A análise dos dados mostrou que determinados funcionários estavam consistentemente associados a um maior número de reclamações e a uma redução nos pedidos. Particularmente, os dados extraídos das consultas 1, 2 e 4 revelaram que funcionários com menor nível de experiência ou aqueles recém-contratados enfrentavam desafios significativos que afetavam suas performances. Por exemplo, a consulta 4, que detalhou o desempenho dos funcionários em termos de reclamações e experiência, indicou que os novatos ou aqueles com experiência insuficiente contribuíam para um número desproporcional de reclamações.
+
+Relação entre Reclamações e Queda de Pedidos:
+As análises das consultas 2 e 5 mostraram que tipos específicos de reclamações estavam frequentemente ligados a uma diminuição subsequente nos pedidos durante períodos subsequentes, conforme demonstrado na consulta 3. Isso sugere que as reclamações não eram apenas incidentes isolados, mas sim indicativos de problemas mais profundos que afetavam a percepção e a satisfação do cliente.
+
+Medidas Implementadas:
+Diante dessas descobertas, a empresa implementou um programa abrangente de treinamento e certificação para todos os funcionários, com um foco especial nos recém-contratados e naqueles cujos desempenhos estavam abaixo das expectativas. O objetivo era melhorar as competências essenciais, como atendimento ao cliente, gestão de reclamações, e eficiência operacional. A certificação foi usada não apenas como uma ferramenta de avaliação, mas também como um incentivo para o desenvolvimento profissional contínuo.
+
+Impacto das Soluções Implementadas:
+Após a implementação dessas medidas, observou-se uma melhoria notável no desempenho dos funcionários. As reclamações diminuíram significativamente, e houve uma recuperação gradual no número de pedidos. A relação direta entre o aumento da competência dos funcionários e a melhoria nos indicadores de performance reafirma a importância de investimentos contínuos em treinamento e desenvolvimento profissional.
+
+Essa análise demonstra claramente como a capacitação e a melhoria das habilidades dos funcionários são cruciais para reversão de tendências negativas no desempenho empresarial. Portanto, continuar a investir em treinamento e desenvolvimento é essencial para manter a competitividade e a satisfação do cliente em longo prazo.
