@@ -1,104 +1,108 @@
-
--- Consulta 1: Total de Vendas por Mês
-SELECT 
-    d.NomeMes,
-    d.Ano,
-    COUNT(p.pedido_id) AS TotalPedidos,
-    SUM(i.quantidade * i.preco_unitario) AS TotalVendas
-FROM
-    Pedidos p
-JOIN
-    Itens_do_Pedido i ON p.pedido_id = i.pedido_id
-JOIN
-    DimensaoData d ON d.DataCompleta = p.data_pedido
-GROUP BY
-    d.NomeMes, d.Ano
-ORDER BY
-    d.Ano, d.Mes;
-
--- Consulta 2: Reclamações por Categoria por Mês
-SELECT
-    d.NomeMes,
-    d.Ano,
-    r.tipo_reclamacao,
-    COUNT(*) AS TotalReclamacoes
-FROM
-    Reclamacoes r
-JOIN
-    DimensaoData d ON d.DataCompleta = r.data_reclamacao
-GROUP BY
-    d.NomeMes, d.Ano, r.tipo_reclamacao
-ORDER BY
-    d.Ano, d.Mes, r.tipo_reclamacao;
-
--- Consulta 3: Média de Pedidos por Dia da Semana
-SELECT
-    d.DiaSemana,
-    AVG(count) AS MediaPedidos
-FROM
-    (SELECT
-        data_pedido,
-        COUNT(*) AS count
-    FROM
-        Pedidos
-    GROUP BY
-        data_pedido) AS DailyOrders
-JOIN
-    DimensaoData d ON d.DataCompleta = DailyOrders.data_pedido
-GROUP BY
-    d.DiaSemana
-ORDER BY
-    CASE
-        WHEN d.DiaSemana = 'Segunda-feira' THEN 1
-        WHEN d.DiaSemana = 'Terça-feira' THEN 2
-        WHEN d.DiaSemana = 'Quarta-feira' THEN 3
-        WHEN d.DiaSemana = 'Quinta-feira' THEN 4
-        WHEN d.DiaSemana = 'Sexta-feira' THEN 5
-        WHEN d.DiaSemana = 'Sábado' THEN 6
-        WHEN d.DiaSemana = 'Domingo' THEN 7
-    END;
-
--- Consulta 4: Desempenho dos Funcionários por Número de Pedidos
+-- Desempenhos dos funcionarios 
 SELECT
     f.nome,
     f.cargo,
     COUNT(p.pedido_id) AS TotalPedidos
 FROM
-    Funcionarios f
+    [OUTBETH].[dbo].[Dimfuncionario] f
 JOIN
-    Pedidos p ON f.funcionario_id = p.funcionario_id
+    [OUTBETH].[dbo].[FatPedidos] p ON f.funcionario_id = p.funcionario_id
 GROUP BY
     f.nome, f.cargo
-ORDER BY
-    TotalPedidos DESC;
 
--- Consulta 5: Total de Vendas por Categoria de Produto
-SELECT
-    pr.categoria,
-    SUM(i.quantidade * i.preco_unitario) AS TotalVendas
-FROM
-    Itens_do_Pedido i
-JOIN
-    Produto pr ON i.produto_id = pr.produto_id
-GROUP BY
-    pr.categoria;
 
--- Consulta 6: Detalhamento das Vendas por Produto no Último Ano
+--Tipo reclamação -> Quantide e qual funcionario está atrelado
+SELECT 
+    r.tipo_reclamacao,
+    COUNT(*) AS quantidade_reclamacoes,
+    f.nome AS NomeFuncionario
+FROM 
+    [OUTBETH].[dbo].[FatPedidos] p
+JOIN 
+    [OUTBETH].[dbo].[Dimreclamacoes] r ON p.pedido_id= r.pedido_id
+JOIN 
+    [OUTBETH].[dbo].[Dimfuncionario] f ON p.funcionario_id = f.funcionario_id
+GROUP BY 
+    r.tipo_reclamacao,
+    f.nome;
+
+-- Analise da Queda nos pedidos
+SELECT 
+    FORMAT(TRY_CONVERT(datetime, p.data_pedido, 101), 'yyyy-MM') AS mes,
+    COUNT(p.pedido_id) AS total_pedidos,
+    SUM(i.quantidade * i.preco_unitario) AS valor_total_vendido,
+    AVG(i.quantidade * i.preco_unitario) AS valor_medio_por_pedido
+FROM [OUTBETH].[dbo].[FatPedidos] p
+JOIN [OUTBETH].[dbo].[DimItens_pedidos] i ON p.pedido_id = i.pedido_id
+GROUP BY FORMAT(TRY_CONVERT(datetime, p.data_pedido, 101), 'yyyy-MM')
+
+--Analise das reclamações por funcionario
+SELECT 
+    r.tipo_reclamacao,
+    COUNT(*) AS quantidade_reclamacoes,
+    FORMAT(TRY_CONVERT(datetime, p.data_pedido, 101), 'yyyy-MM') AS mes,
+    f.nome AS nome_funcionario,
+    c.nome AS nome_cliente
+FROM [OUTBETH].[dbo].[Dimreclamacoes] r
+JOIN [OUTBETH].[dbo].[FatPedidos] p ON r.pedido_id = p.pedido_id
+JOIN [OUTBETH].[dbo].[Dimfuncionario] f ON p.funcionario_id = f.funcionario_id
+JOIN [OUTBETH].[dbo].[Dimcliente] c ON p.cliente_id = c.cliente_id
+WHERE TRY_CONVERT(datetime, p.data_pedido, 101) IS NOT NULL
+GROUP BY r.tipo_reclamacao, FORMAT(TRY_CONVERT(datetime, p.data_pedido, 101), 'yyyy-MM'), f.nome, c.nome
+
+--Analise das reclamações por data e tipo
 SELECT
-    pr.nome,
-    SUM(i.quantidade) AS QuantidadeVendida,
-    SUM(i.quantidade * i.preco_unitario) AS Receita
+    p.data_pedido,
+    r.tipo_reclamacao,
+    COUNT(*) AS TotalReclamacoes
 FROM
-    Itens_do_Pedido i
+    [OUTBETH].[dbo].[Dimreclamacoes] r
 JOIN
-    Produto pr ON i.produto_id = pr.produto_id
-JOIN
-    Pedidos p ON i.pedido_id = p.pedido_id
-JOIN
-    DimensaoData d ON d.DataCompleta = p.data_pedido
-WHERE
-    d.Ano = YEAR(CURRENT_DATE) - 1
+    [OUTBETH].[dbo].[FatPedidos] p ON TRY_CONVERT(datetime, p.data_pedido, 101) = r.data_reclamacao
 GROUP BY
-    pr.nome
+    p.data_pedido,r.tipo_reclamacao
+
+--Analise desempenho detalhado dos funcionarios
+SELECT
+    f.nome AS NomeFuncionario,
+    f.nivel_experiencia AS NivelExperiencia,
+    f.data_contratacao AS DataEntrada,
+    r.tipo_reclamacao AS TipoReclamacao,
+    COUNT(r.reclamacao_id) AS TotalReclamacoes
+FROM
+    [OUTBETH].[dbo].[Dimfuncionario] f
+LEFT JOIN
+    [OUTBETH].[dbo].[FatPedidos] p ON f.funcionario_id = p.funcionario_id
+LEFT JOIN
+    [OUTBETH].[dbo].[Dimreclamacoes] r ON p.pedido_id = r.pedido_id
+GROUP BY
+    f.nome,
+    f.nivel_experiencia,
+    f.data_contratacao,
+    r.tipo_reclamacao
 ORDER BY
-    Receita DESC;
+    f.nome, 
+    TotalReclamacoes DESC;
+
+--Analise receita dos produtos 
+SELECT
+    f.nome AS NomeFuncionario,
+    f.nivel_experiencia AS NivelExperiencia,
+    f.data_contratacao AS DataEntrada,
+    r.tipo_reclamacao AS TipoReclamacao,
+    COUNT(r.reclamacao_id) AS TotalReclamacoes
+FROM
+    [OUTBETH].[dbo].[Dimfuncionario] f
+LEFT JOIN
+    [OUTBETH].[dbo].[FatPedidos] p ON f.funcionario_id = p.funcionario_id
+LEFT JOIN
+    [OUTBETH].[dbo].[Dimreclamacoes] r ON p.pedido_id = r.pedido_id
+GROUP BY
+    f.nome,
+    f.nivel_experiencia,
+    f.data_contratacao,
+    r.tipo_reclamacao
+ORDER BY
+    f.nome, 
+    TotalReclamacoes DESC;
+
